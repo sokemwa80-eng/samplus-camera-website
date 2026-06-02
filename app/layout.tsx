@@ -18,6 +18,13 @@ export const metadata: Metadata = {
     "Professional Cameras, Camcorders, Drones, Audio, Lighting and Livestreaming Equipment in Nairobi, Kenya.",
 };
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{

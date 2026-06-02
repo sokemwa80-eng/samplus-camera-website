@@ -17,7 +17,7 @@ const categories = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen bg-black text-white overflow-x-hidden w-full max-w-full">
       {/* NAVBAR */}
       <nav className="sticky top-0 z-50 bg-black/95 border-b border-red-600">
         <div className="max-w-screen-2xl mx-auto px-4 md:px-8 py-4 flex items-center justify-between gap-4">
@@ -81,7 +81,7 @@ export default function Home() {
               <span className="text-white">CAMERA</span>
             </h1>
 
-           <p className="hidden md:block md:text-xl lg:text-2xl text-gray-200 md:leading-8 md:mb-8 text-left w-full">
+            <p className="hidden md:block md:text-xl lg:text-2xl text-gray-200 md:leading-8 md:mb-8 text-left w-full">
               Professional Cameras, Video Equipment, Drones, Audio Gear,
               Livestreaming Equipment and Accessories. We provide high-quality
               products for photographers, videographers, content creators,
@@ -90,7 +90,7 @@ export default function Home() {
               right equipment to bring your vision to life.
             </p>
 
-           <div className="flex flex-col md:flex-row gap-3 md:gap-5 mt-4 md:mt-0">
+            <div className="flex flex-col md:flex-row gap-3 md:gap-5 mt-4 md:mt-0">
               <a
                 href="#products"
                 className="bg-red-600 hover:bg-red-700 px-5 md:px-10 py-3 md:py-5 rounded-2xl font-bold text-base md:text-xl flex items-center justify-center gap-3 transition whitespace-nowrap"
@@ -114,48 +114,68 @@ export default function Home() {
 
       {/* PRODUCTS */}
       <section
-  id="products"
-  className="relative z-40 py-10 md:py-16 px-4 md:px-6 bg-black -mt-45 md:-mt-70"
->
-        <div className="max-w-7xl mx-auto px-2 md:px-0">
+        id="products"
+        className="w-full py-10 md:py-16 px-1 md:px-6 bg-black -mt-25 md:-mt-45 relative z-20"
+      >
+        <div className="w-full px-1 md:px-4">
           {categories.map((category) => {
             const categoryProducts = products.filter(
               (item) => item.category === category
-            );
+            ) as Array<{
+              name: string;
+              price: string;
+              category: string;
+              image: string;
+              link: string;
+              oldPrice?: string;
+            }>;
 
             if (categoryProducts.length === 0) return null;
 
             return (
-              <div key={category} className="mb-24">
-                <div className="text-center mb-14">
+              <div key={category} className="mb-4 md:mb-6">
+                <div className="text-center mb-6 md:mb-10">
                   <h2 className="text-3xl md:text-5xl font-black text-white mb-4 whitespace-nowrap">
                     {category}
                   </h2>
                   <div className="w-32 h-1 bg-red-600 mx-auto rounded-full" />
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-8">
+                <div className="flex md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-8 overflow-x-scroll md:overflow-visible snap-x snap-mandatory w-full px-2 scrollbar-hide">
                   {categoryProducts.map((item) => (
                     <div
                       key={item.name}
-                      className="product-card bg-zinc-950 border border-white/10 rounded-3xl overflow-hidden hover:border-red-500 hover:-translate-y-2 transition-all duration-300 shadow-2xl"
+                      className="product-card min-w-[92vw] md:min-w-0 snap-center bg-zinc-950 border border-white/10 rounded-3xl overflow-hidden flex flex-col"
                     >
-                      <div className="bg-white">
+                      {/* Fixed Image Area */}
+                      <div className="bg-white h-64 flex items-center justify-center overflow-hidden">
                         <img
                           src={item.image}
                           alt={item.name}
-                          className="product-image w-full h-40 md:h-64 object-contain"
+                          className="max-w-full max-h-full object-contain p-3"
                         />
                       </div>
-
-                      <div className="p-4 md:p-6">
-                        <h3 className="text-sm md:text-xl font-bold mb-3 md:mb-4 min-h-[55px] md:min-h-[70px]">
+                      {/* Fixed Info Area */}
+                      <div className="p-4 min-h-40 bg-zinc-950">
+                        <h3 className="text-xl md:text-2xl font-bold leading-tight mb-1 line-clamp-2">
                           {item.name}
                         </h3>
 
-                        <p className="text-xl md:text-3xl font-black text-red-500">
+                        {item.oldPrice && (
+                          <span className="inline-block bg-red-600 text-white text-xs font-bold px-2 py-1 rounded mb-2">
+                            PRICE DROP
+                          </span>
+                        )}
+
+                        {item.oldPrice && (
+                          <p className="text-gray-400 line-through text-lg md:text-xl">
+                            {item.oldPrice}
+                          </p>
+                        )}
+                        <p className="text-3xl md:text-4xl font-black text-red-500">
                           {item.price}
                         </p>
+                        
                       </div>
                     </div>
                   ))}
@@ -235,48 +255,48 @@ export default function Home() {
       <section className="py-10 px-6 bg-black border-t border-white/10">
         <div className="max-w-screen-2xl mx-auto grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
 
-          <img src="/brands/canon.png" alt="Canon" className="h-30 mx-auto" />
+          <img src="/brands/canon.png" alt="Canon" className="h-12 md:h-20 w-auto max-w-full object-contain mx-auto" />
 
-          <img src="/brands/nikon.png" alt="Nikon" className="h-30 mx-auto" />
+          <img src="/brands/nikon.png" alt="Nikon" className="h-12 md:h-20 w-auto max-w-full object-contain mx-auto" />
 
-          <img src="/brands/sony.png" alt="Sony" className="h-30 mx-auto" />
+          <img src="/brands/sony.png" alt="Sony" className="h-12 md:h-20 w-auto max-w-full object-contain mx-auto" />
 
-          <img src="/brands/panasonic.png" alt="Panasonic" className="h-30 mx-auto" />
+          <img src="/brands/panasonic.png" alt="Panasonic" className="h-12 md:h-20 w-auto max-w-full object-contain mx-auto" />
 
-          <img src="/brands/lumix.png" alt="Lumix" className="h-30 mx-auto" />
+          <img src="/brands/lumix.png" alt="Lumix" className="h-12 md:h-20 w-auto max-w-full object-contain mx-auto" />
 
-          <img src="/brands/dji.png" alt="DJI" className="h-30 mx-auto" />
+          <img src="/brands/dji.png" alt="DJI" className="h-12 md:h-20 w-auto max-w-full object-contain mx-auto" />
 
-          <img src="/brands/blackmagic.png" alt="Blackmagic Design" className="h-30 mx-auto" />
+          <img src="/brands/blackmagic.png" alt="Blackmagic Design" className="h-12 md:h-20 w-auto max-w-full object-contain mx-auto" />
 
-          <img src="/brands/red.png" alt="RED Digital Cinema" className="h-30 mx-auto" />
+          <img src="/brands/red.png" alt="RED Digital Cinema" className="h-12 md:h-20 w-auto max-w-full object-contain mx-auto" />
 
-          <img src="/brands/sigma.png" alt="Sigma" className="h-12 mx-auto" />
+          <img src="/brands/sigma.png" alt="Sigma" className="h-12 md:h-20 w-auto max-w-full object-contain mx-auto" />
 
-          <img src="/brands/tamron.png" alt="Tamron" className="h-30 mx-auto" />
+          <img src="/brands/tamron.png" alt="Tamron" className="h-12 md:h-20 w-auto max-w-full object-contain mx-auto" />
 
-          <img src="/brands/godox.png" alt="Godox" className="h-20 mx-auto" />
+          <img src="/brands/godox.png" alt="Godox" className="h-12 md:h-20 w-auto max-w-full object-contain mx-auto" />
 
         </div>
       </section>
-{/* MPESA PAYMENT */}
-<section className="py-12 md:py-16 px-4 md:px-6 bg-black border-t border-white/10">
-  <div className="max-w-6xl mx-auto text-center">
+      {/* MPESA PAYMENT */}
+      <section className="py-12 md:py-16 px-4 md:px-6 bg-black border-t border-white/10">
+        <div className="max-w-6xl mx-auto text-center">
 
-    <h2 className="text-3xl md:text-5xl font-black text-white mb-4">
-      PAY VIA <span className="text-green-500">M-PESA</span>
-    </h2>
+          <h2 className="text-3xl md:text-5xl font-black text-white mb-4">
+            PAY VIA <span className="text-green-500">M-PESA</span>
+          </h2>
 
-    <div className="w-24 h-1 bg-green-500 mx-auto mb-8"></div>
+          <div className="w-24 h-1 bg-green-500 mx-auto mb-8"></div>
 
-    <img
-      src="/images/mpesa-till.jpg"
-      alt="Samplus Camera M-Pesa Till Number"
-      className="w-full rounded-3xl shadow-2xl"
-    />
+          <img
+            src="/images/mpesa-till.jpg"
+            alt="Samplus Camera M-Pesa Till Number"
+            className="w-full rounded-3xl shadow-2xl"
+          />
 
-  </div>
-</section>
+        </div>
+      </section>
       {/* CONTACT */}
       <section id="contact" className="py-10 px-6 bg-black border-t border-white/10">
         <div className="max-w-4xl mx-auto text-center">
@@ -312,53 +332,53 @@ export default function Home() {
           </div>
         </div>
         <div className="mt-8 text-center">
-  <h3 className="text-xl font-bold text-red-500 mb-4">
-    Follow Samplus Camera
-  </h3>
+          <h3 className="text-xl font-bold text-red-500 mb-4">
+            Follow Samplus Camera
+          </h3>
 
-  <div className="flex flex-wrap justify-center gap-6 text-white">
-    <a
-      href="https://x.com/SamplusCamera"
-      target="_blank"
-      className="hover:text-red-500"
-    >
-      X (Twitter)
-    </a>
+          <div className="flex flex-wrap justify-center gap-6 text-white">
+            <a
+              href="https://x.com/SamplusCamera"
+              target="_blank"
+              className="hover:text-red-500"
+            >
+              X (Twitter)
+            </a>
 
-    <a
-      href="https://tiktok.com/@sampluscamera"
-      target="_blank"
-      className="hover:text-red-500"
-    >
-      TikTok
-    </a>
+            <a
+              href="https://tiktok.com/@sampluscamera"
+              target="_blank"
+              className="hover:text-red-500"
+            >
+              TikTok
+            </a>
 
-    <a
-      href="https://instagram.com/samplus_camera"
-      target="_blank"
-      className="hover:text-red-500"
-    >
-      Instagram
-    </a>
+            <a
+              href="https://instagram.com/samplus_camera"
+              target="_blank"
+              className="hover:text-red-500"
+            >
+              Instagram
+            </a>
 
-    <a
-      href="https://facebook.com/sampluscamera"
-      target="_blank"
-      className="hover:text-red-500"
-    >
-      Facebook
-    </a>
+            <a
+              href="https://facebook.com/sampluscamera"
+              target="_blank"
+              className="hover:text-red-500"
+            >
+              Facebook
+            </a>
 
-    <a
-      href="https://youtube.com/@sampluscamera"
-      target="_blank"
-      className="hover:text-red-500"
-    >
-      YouTube
-    </a>
-  </div>
-</div>
+            <a
+              href="https://youtube.com/@sampluscamera"
+              target="_blank"
+              className="hover:text-red-500"
+            >
+              YouTube
+            </a>
+          </div>
+        </div>
       </section>
-    </main>
+    </main >
   );
 }

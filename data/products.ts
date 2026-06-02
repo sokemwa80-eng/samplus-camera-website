@@ -16,12 +16,13 @@ export const products = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
-    name: "Canon EOS R Mirrorless Camera",
-    price: "KSh 150,000",
-    category: "Cameras",
-    image: "/images/canon-eos-r.jpg",
-    link: "https://jiji.co.ke/shop/sampluscamera",
-  },
+  name: "Canon EOS R Mirrorless Camera",
+  oldPrice: "KSh 150,000",
+  price: "KSh 145,000",
+  category: "Cameras",
+  image: "/images/canon-eos-r.jpg",
+  link: "https://jiji.co.ke/shop/sampluscamera",
+},
   {
     name: "Canon EOS R5 Full-Frame Mirrorless Camera with 8K Video",
     price: "KSh 300,000",
@@ -532,7 +533,7 @@ export const products = [
 
   {
     name: "COMICA Vimo Q 4-Channel Wireless Lavalier Microphone System",
-    price: "KSh 27000",
+    price: "KSh 27,000",
     category: "Audio",
     image: "/images/comica-vimo-q.jpg",
     link: "https://jiji.co.ke/shop/sampluscamera",
