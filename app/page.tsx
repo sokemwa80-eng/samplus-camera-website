@@ -168,14 +168,21 @@ export default function Home() {
                         )}
 
                         {item.oldPrice && (
-                          <p className="text-gray-400 line-through text-lg md:text-xl">
+                          <p
+                            className="text-white text-2xl md:text-3xl font-black"
+                            style={{
+                              textDecoration: "line-through",
+                              textDecorationColor: "red",
+                              textDecorationThickness: "3px",
+                            }}
+                          >
                             {item.oldPrice}
                           </p>
                         )}
                         <p className="text-3xl md:text-4xl font-black text-red-500">
                           {item.price}
                         </p>
-                        
+
                       </div>
                     </div>
                   ))}

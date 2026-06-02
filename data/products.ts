@@ -3,6 +3,7 @@ export const products = [
   // CAMERAS
   {
     name: "Canon 5D Mark IV",
+    oldPrice: "KSh 130,000",
     price: "KSh 120,000",
     category: "Cameras",
     image: "/images/canon-5d.jpg",
@@ -10,21 +11,23 @@ export const products = [
   },
   {
     name: "Canon EOS 90D DSLR Camera",
+    oldPrice: "KSh 125,000",
     price: "KSh 120,000",
     category: "Cameras",
     image: "/images/canon-90d.jpg",
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
-  name: "Canon EOS R Mirrorless Camera",
-  oldPrice: "KSh 150,000",
-  price: "KSh 145,000",
-  category: "Cameras",
-  image: "/images/canon-eos-r.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-},
+    name: "Canon EOS R Mirrorless Camera",
+    oldPrice: "KSh 150,000",
+    price: "KSh 145,000",
+    category: "Cameras",
+    image: "/images/canon-eos-r.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+  },
   {
     name: "Canon EOS R5 Full-Frame Mirrorless Camera with 8K Video",
+    oldPrice: "KSh 315,000",
     price: "KSh 300,000",
     category: "Cameras",
     image: "/images/canon-eos-r5.jpg",
@@ -230,6 +233,7 @@ export const products = [
   // VIDEO CAMERAS
   {
     name: "Sony HXR-NX100 Professional Video Camera",
+    oldPrice: "KSh 195,000",
     price: "KSh 185,000",
     category: "Video Cameras",
     image: "/images/sony-hxr-nx100.jpg",
@@ -237,6 +241,7 @@ export const products = [
   },
   {
     name: "Sony PXW-X70 Professional Camcorder",
+    oldPrice: "KSh 210,000",
     price: "KSh 200,000",
     category: "Video Cameras",
     image: "/images/sony-pxw-x70.jpg",
@@ -348,35 +353,35 @@ export const products = [
     image: "/images/canon-c70.jpg",
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
-// Wireless Video Transmitters & Receivers
-{
-  name: "Hollyland Pyro H Wireless Video Transmission System - HDMI",
-  price: "KSh 47,000",
-  category: "Wireless Video Transmitters & Receivers",
-  image: "/images/hollyland-pyro-h.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-},
-{
-  name: "Hollyland MARS 300 PRO HDMI Wireless Video Transmitter/Receiver Set (Standard)",
-  price: "KSh 37,000",
-  category: "Wireless Video Transmitters & Receivers",
-  image: "/images/hollyland-mars-300-pro.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-},
-{
-  name: "Hollyland MARS 4K Wireless Video Transmission System",
-  price: "KSh 50,000",
-  category: "Wireless Video Transmitters & Receivers",
-  image: "/images/hollyland-mars-4k.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-},
-{
-  name: "Accsoon CineView HE Wireless Video Transmission System",
-  price: "KSh 48,000",
-  category: "Wireless Video Transmitters & Receivers",
-  image: "/images/accsoon-cineview-he.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-},
+  // Wireless Video Transmitters & Receivers
+  {
+    name: "Hollyland Pyro H Wireless Video Transmission System - HDMI",
+    price: "KSh 47,000",
+    category: "Wireless Video Transmitters & Receivers",
+    image: "/images/hollyland-pyro-h.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+  },
+  {
+    name: "Hollyland MARS 300 PRO HDMI Wireless Video Transmitter/Receiver Set (Standard)",
+    price: "KSh 37,000",
+    category: "Wireless Video Transmitters & Receivers",
+    image: "/images/hollyland-mars-300-pro.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+  },
+  {
+    name: "Hollyland MARS 4K Wireless Video Transmission System",
+    price: "KSh 50,000",
+    category: "Wireless Video Transmitters & Receivers",
+    image: "/images/hollyland-mars-4k.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+  },
+  {
+    name: "Accsoon CineView HE Wireless Video Transmission System",
+    price: "KSh 48,000",
+    category: "Wireless Video Transmitters & Receivers",
+    image: "/images/accsoon-cineview-he.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+  },
   // LENSES
   {
     name: "Canon EF-S 18-135mm Standard Zoom Lens",
