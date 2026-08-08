@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   title: "Hot Deals at Samplus Camera",
   description:
     "Limited-time camera offers available at Samplus Camera Nairobi. Shop cameras, camcorders, lenses and accessories.",
+
   openGraph: {
     title: "Hot Deals at Samplus Camera",
     description:
@@ -32,12 +33,15 @@ export const metadata: Metadata = {
     ],
     type: "website",
   },
+
   twitter: {
     card: "summary_large_image",
     title: "Hot Deals at Samplus Camera",
     description:
       "Limited-time camera offers available at Samplus Camera Nairobi.",
-    images: ["https://shop.sampluscamera.com/images/offer-preview.jpg"],
+    images: [
+      "https://shop.sampluscamera.com/images/offer-preview.jpg",
+    ],
   },
 };
 
@@ -49,11 +53,21 @@ export const viewport: Viewport = {
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html
+      lang="en"
+      className={`${geistSans.variable} ${geistMono.variable}`}
+    >
+      <head>
+        <meta
+          name="facebook-domain-verification"
+          content="xpvl94ohni22vct67fv7pb76xt8dzr"
+        />
+      </head>
+
       <body>{children}</body>
     </html>
   );
