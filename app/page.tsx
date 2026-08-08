@@ -1,18 +1,32 @@
+"use client";
 import { Camera, MessageCircle, ShoppingBag } from "lucide-react";
 import { products } from "../data/products";
 
 const categories = [
-  "Cameras",
-  "Video Cameras",
-  "Cinema Cameras",
-  "Wireless Video Transmitters & Receivers",
-  "Drones",
-  "Audio",
-  "Livestreaming",
-  "Lighting",
-  "Accessories",
-  "Lenses",
+  "DSLR and Mirrorless Cameras",
+  "Professional Video Camcorders",
+  "PTZ Cameras",
   "Action Cameras",
+  "Cinema Cameras",
+  "Camera Lenses",
+  "Drones",
+  "Audio Equipment",
+  "Lighting Equipment",
+  "Live Streaming Equipment",
+  "Wireless Video Transmission Systems",
+  "Gaming Consoles",
+  "Gaming Laptops",
+  "Camera Accessories",
+  "Memory Cards & Storage",
+  "Batteries & Chargers",
+  "Tripods & Stabilizers",
+  "Monitors & Recorders",
+  "Video Switchers",
+  "Computers & Editing Equipment",
+  "Gimbals",
+  "Adapters",
+  "Phones & Tablets",
+  "Video Camera Accessories",
 ];
 
 export default function Home() {
@@ -46,7 +60,9 @@ export default function Home() {
           </a>
         </div>
       </nav>
-
+      <div className="bg-red-600 text-white text-center py-2 text-sm md:text-lg font-bold">
+        📍 Simara Mall, 4th Floor, Room F63, Nairobi | {new Date().toLocaleString()}
+      </div>
       {/* JIJI BANNER */}
       <div className="bg-black border-b border-red-600 py-3">
         <div className="max-w-screen-2xl mx-auto flex items-center justify-center gap-4 px-4">
@@ -65,7 +81,7 @@ export default function Home() {
       </div>
 
       {/* HERO */}
-      <section className="relative min-h-[170px] md:min-h-[500px] overflow-hidden">
+      <section className="relative min-h-[120px] md:min-h-[300px] overflow-hidden">
         <img
           src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32"
           alt="Camera"
@@ -76,12 +92,12 @@ export default function Home() {
 
         <div className="relative z-10 max-w-screen-2xl mx-auto px-4 md:px-6 w-full">
           <div className="w-full">
-            <h1 className="hidden md:block text-8xl font-black leading-none mb-6 mt-0">
+            <h1 className="hidden md:block text-8xl font-black leading-none mb-6 mt-0 text-center w-full">
               <span className="text-red-600">SAMPLUS</span>{" "}
               <span className="text-white">CAMERA</span>
             </h1>
 
-            <p className="hidden md:block md:text-xl lg:text-2xl text-gray-200 md:leading-8 md:mb-8 text-left w-full">
+            <p className="text-base md:text-2xl text-gray-300 leading-7 md:leading-8 max-w-8xl mx-auto text-center">
               Professional Cameras, Video Equipment, Drones, Audio Gear,
               Livestreaming Equipment and Accessories. We provide high-quality
               products for photographers, videographers, content creators,
@@ -111,80 +127,160 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* HOT DEALS OFFERS */}
+      <section className="bg-black -mt-0 pt-0 pb-2 w-full">
+        <h2 className="text-center text-4xl md:text-5xl font-black text-white mb-4 flex items-center justify-center gap-3">
+          🔥 HOT DEALS
+        </h2>
+
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(320px,1fr))] gap-1 w-full">
+          {products
+            .filter((p) => p.oldPrice)
+            .map((item) => {
+              const was = parseInt(item.oldPrice!.replace(/[^\d]/g, ""));
+              const now = parseInt((item.price ?? "0").replace(/[^\d]/g, ""));
+              const save = was - now;
+
+              return (
+                <div
+                  key={item.name}
+                  className="bg-black border border-red-600 rounded-lg p-2 overflow-hidden w-full"
+                >
+
+
+                  <div className="bg-white h-40 flex items-center justify-center overflow-hidden rounded-lg mt-2">
+                    <img
+                      src={item.image}
+                      alt={item.name}
+                      className="max-w-full max-h-full object-contain p-1"
+                    />
+                  </div>
+                  <h3 className="text-base md:text-xl font-bold text-white">
+                    {item.name}
+                  </h3>
+                  <div className="inline-block bg-red-600 text-white px-2 py-1 rounded rotate-[-5deg] mt-2">
+                    <p className="text-sm font-black leading-none">SAVE</p>
+                    <p className="text-lg font-black leading-none mt-1 whitespace-nowrap">
+                      KSh {save.toLocaleString()}
+                    </p>
+                  </div>
+
+                  <div className="flex justify-between items-end gap-2 mt-2">
+                    <div>
+                      <p className="text-white text-sm font-black">WAS</p>
+                      <p className="text-white text-xl font-black whitespace-nowrap">
+                        {item.oldPrice}
+                      </p>
+                    </div>
+
+                    <div className="text-right">
+                      <p className="text-white text-xl font-black">NOW</p>
+
+                      <div className="bg-red-600 px-2 py-1 rounded">
+                        <p className="text-white text-2xl font-black whitespace-nowrap">
+                          {item.price}
+                        </p>
+                      </div>
+
+                      <a
+                        href={`https://wa.me/254720082614?text=Hello Samplus Camera, I want to buy ${item.name}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block mt-1 bg-green-500 hover:bg-green-600 text-white font-bold px-2 py-1 rounded text-xs transition"
+                      >
+                        SHOP NOW
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+        </div>
+      </section>
 
       {/* PRODUCTS */}
       <section
         id="products"
-        className="w-full py-10 md:py-16 px-1 md:px-6 bg-black -mt-25 md:-mt-45 relative z-20"
+        className="w-full py-10 md:py-16 px-2 md:px-6 bg-black"
       >
-        <div className="w-full px-1 md:px-4">
+        <div className="w-full">
           {categories.map((category) => {
             const categoryProducts = products.filter(
               (item) => item.category === category
-            ) as Array<{
-              name: string;
-              price: string;
-              category: string;
-              image: string;
-              link: string;
-              oldPrice?: string;
-            }>;
+            );
 
             if (categoryProducts.length === 0) return null;
 
             return (
-              <div key={category} className="mb-4 md:mb-6">
-                <div className="text-center mb-6 md:mb-10">
-                  <h2 className="text-3xl md:text-5xl font-black text-white mb-4 whitespace-nowrap">
+              <div key={category} className="mb-8">
+                <div className="text-center mb-8">
+                  <h2 className="text-3xl md:text-5xl font-black text-white">
                     {category}
                   </h2>
-                  <div className="w-32 h-1 bg-red-600 mx-auto rounded-full" />
+                  <div className="w-32 h-1 bg-red-600 mx-auto rounded-full mt-3" />
                 </div>
 
-                <div className="flex md:grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-8 overflow-x-scroll md:overflow-visible snap-x snap-mandatory w-full px-2 scrollbar-hide">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
                   {categoryProducts.map((item) => (
-                    <div
+                    <a
                       key={item.name}
-                      className="product-card min-w-[92vw] md:min-w-0 snap-center bg-zinc-950 border border-white/10 rounded-3xl overflow-hidden flex flex-col"
+                      href={`https://wa.me/254720082614?text=Hello Samplus Camera, I am interested in ${encodeURIComponent(
+                        item.name
+                      )}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block"
                     >
-                      {/* Fixed Image Area */}
-                      <div className="bg-white h-64 flex items-center justify-center overflow-hidden">
-                        <img
-                          src={item.image}
-                          alt={item.name}
-                          className="max-w-full max-h-full object-contain p-3"
-                        />
+                      <div className="bg-zinc-950 border-2 border-red-600 rounded-3xl overflow-hidden hover:scale-[1.02] transition">
+
+                        {/* Image */}
+                        <div className="relative bg-white h-70 md:h-80 flex items-center justify-center overflow-hidden p-2">
+                          {item.outOfStock && (
+                            <div className="absolute top-8 -left-2 rotate-[-45deg] bg-red-600 text-white font-extrabold text-base px-10 py-2 z-10 shadow-lg">
+                              OUT OF STOCK
+                            </div>
+                          )}
+                          <img
+                            src={item.image}
+                            alt={item.name}
+                            className="max-w-full max-h-full object-contain"
+                          />
+                        </div>
+
+                        {/* Details */}
+                        <div className="p-4 bg-zinc-950">
+                          <h3 className="text-xl md:text-2xl font-bold text-white leading-tight mb-2 line-clamp-2">
+                            {item.name}
+                          </h3>
+
+                          <div className="flex items-center gap-4 mt-2 flex-wrap">
+                            {item.oldPrice && (
+                              <span className="bg-red-600 text-white text-xl font-bold px-2 py-1 rounded">
+                                PRICE DROP
+                              </span>
+                            )}
+
+                            {item.oldPrice && (
+                              <span
+                                className="text-white text-xl font-bold"
+                                style={{
+                                  textDecoration: "line-through",
+                                  textDecorationColor: "red",
+                                  textDecorationThickness: "2px",
+                                }}
+                              >
+                                {item.oldPrice}
+                              </span>
+                            )}
+
+                            <span className="text-red-500 text-xl md:text-2xl font-black">
+                              {item.price}
+                            </span>
+                          </div>
+                        </div>
+
                       </div>
-                      {/* Fixed Info Area */}
-                      <div className="p-4 min-h-40 bg-zinc-950">
-                        <h3 className="text-xl md:text-2xl font-bold leading-tight mb-1 line-clamp-2">
-                          {item.name}
-                        </h3>
-
-                        {item.oldPrice && (
-                          <span className="inline-block bg-red-600 text-white text-xs font-bold px-2 py-1 rounded mb-2">
-                            PRICE DROP
-                          </span>
-                        )}
-
-                        {item.oldPrice && (
-                          <p
-                            className="text-white text-2xl md:text-3xl font-black"
-                            style={{
-                              textDecoration: "line-through",
-                              textDecorationColor: "red",
-                              textDecorationThickness: "3px",
-                            }}
-                          >
-                            {item.oldPrice}
-                          </p>
-                        )}
-                        <p className="text-3xl md:text-4xl font-black text-red-500">
-                          {item.price}
-                        </p>
-
-                      </div>
-                    </div>
+                    </a>
                   ))}
                 </div>
               </div>
@@ -192,19 +288,18 @@ export default function Home() {
           })}
         </div>
       </section>
-
       {/* ABOUT */}
       <section id="about" className="py-20 px-6 bg-black border-t border-red-600">
-        <div className="max-w-screen-2xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+        <div className="w-full">
+          <div className="w-full">
             <div>
-              <h2 className="text-2xl md:text-6xl font-black mb-6 whitespace-nowrap">
+              <h2 className="text-2xl md:text-6xl font-black mb-6 whitespace-nowrap text-center">
                 ABOUT <span className="text-red-600">SAMPLUS</span> CAMERA
               </h2>
 
-              <div className="w-20 h-1 bg-red-600 mb-8" />
+              <div className="w-20 h-1 bg-red-600 mb-8 mx-auto" />
 
-              <p className="text-base md:text-xl text-gray-300 leading-7 md:leading-8 max-w-3xl">
+              <p className="text-base md:text-xl text-gray-300 leading-7 md:leading-8 max-w-5xl mx-auto text-center">
                 At Samplus Camera, we are passionate about empowering creators,
                 professionals, and businesses with the right tools to bring their
                 vision to life. From high-quality cameras to professional
@@ -215,13 +310,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="relative">
-              <img
-                src="/images/Featured/hero-camera.png"
-                alt="Samplus Camera"
-                className="hidden md:block absolute right-0 top-0 h-full w-1/2 object-contain opacity-70"
-              />
-            </div>
+
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mt-20">

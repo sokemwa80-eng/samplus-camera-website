@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -13,29 +13,48 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Samplus Camera",
+  title: "Hot Deals at Samplus Camera",
   description:
-    "Professional Cameras, Camcorders, Drones, Audio, Lighting and Livestreaming Equipment in Nairobi, Kenya.",
+    "Limited-time camera offers available at Samplus Camera Nairobi. Shop cameras, camcorders, lenses and accessories.",
+  openGraph: {
+    title: "Hot Deals at Samplus Camera",
+    description:
+      "Limited-time camera offers available at Samplus Camera Nairobi.",
+    url: "https://shop.sampluscamera.com",
+    siteName: "Samplus Camera",
+    images: [
+      {
+        url: "https://shop.sampluscamera.com/images/offer-preview.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Samplus Camera Hot Deals",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hot Deals at Samplus Camera",
+    description:
+      "Limited-time camera offers available at Samplus Camera Nairobi.",
+    images: ["https://shop.sampluscamera.com/images/offer-preview.jpg"],
+  },
 };
 
-export const viewport = {
+export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
-  userScalable: false,
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body>{children}</body>
     </html>
   );
 }
