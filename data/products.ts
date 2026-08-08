@@ -5,8 +5,8 @@ export const products: any[] = [
     name: "Canon EOS 5D Mark IV",
     slug: "canon-5d-mark-iv",
     oldPrice: "KSh 130,000",
-    price: "KSh 120,000",
-     category: "DSLR and Mirrorless Cameras",
+    price: "KSh 125,000",
+    category: "DSLR and Mirrorless Cameras",
 
 
 
@@ -19,18 +19,18 @@ export const products: any[] = [
     ]
   },
   {
-  name: "Canon EOS 90D DSLR Camera",
-  slug: "canon-eos-90d",
-  oldPrice: "KSh 125,000",
-  price: "KSh 120,000",
-  category: "Cameras",
-  image: "/images/canon-90d.jpg",
-  description: "Canon EOS 90D DSLR camera body available at Samplus Camera.",
-  specs: [
-    "32.5MP APS-C CMOS Sensor",
-    "4K Video Recording",
-    "Dual Pixel CMOS Autofocus"
-  ]
+    name: "Canon EOS 90D DSLR Camera",
+    slug: "canon-eos-90d",
+    oldPrice: "KSh 125,000",
+    price: "KSh 120,000",
+    category: "Cameras",
+    image: "/images/canon-90d.jpg",
+    description: "Canon EOS 90D DSLR camera body available at Samplus Camera.",
+    specs: [
+      "32.5MP APS-C CMOS Sensor",
+      "4K Video Recording",
+      "Dual Pixel CMOS Autofocus"
+    ]
   },
   {
     name: "Canon EOS R Mirrorless Camera",
@@ -73,7 +73,7 @@ export const products: any[] = [
     name: "Canon EOS RP + RF 24-105 Lens Kit",
     slug: "canon-eos-rp-rf-24-105",
     price: "KSh 120,000",
-     category: "DSLR and Mirrorless Cameras",
+    category: "DSLR and Mirrorless Cameras",
     image: "/images/canon-rp.jpg",
   },
   {
@@ -101,7 +101,7 @@ export const products: any[] = [
   {
     name: "Canon EOS 6D Mark II",
     price: "KSh 110,000",
-     category: "DSLR and Mirrorless Cameras",
+    category: "DSLR and Mirrorless Cameras",
     image: "/images/canon-6d-markii.jpg",
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
@@ -113,13 +113,13 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
-  name: "Canon EOS 80D EF-S 18-55mm Kit",
-  oldPrice: "KSh 115,000",
-  price: "KSh 110,000",
-  category: "DSLR and Mirrorless Cameras",
-  image: "/images/canon-80d-kit.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-},
+    name: "Canon EOS 80D EF-S 18-55mm Kit",
+    oldPrice: "KSh 115,000",
+    price: "KSh 110,000",
+    category: "DSLR and Mirrorless Cameras",
+    image: "/images/canon-80d-kit.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+  },
   {
     name: "Canon EOS Rebel T8i EF-S 18-55mm IS STM Lens Kit Black",
     price: "KSh 95,000",
@@ -163,13 +163,13 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
-  name: "Nikon D850 DSLR Camera",
-  price: "KSh 215,000",
-  category: "DSLR and Mirrorless Cameras",
-  image: "/images/nikon-d850.jpg",
-  description:
-    "Professional 45.7MP full-frame DSLR camera featuring a backside-illuminated CMOS sensor, EXPEED 5 image processor, 4K UHD video recording, 153-point autofocus system, 7fps continuous shooting (up to 9fps with battery grip), ISO range 64-25,600, 3.2-inch tilting touchscreen LCD, SnapBridge connectivity, dual card slots (XQD and SD), weather-sealed magnesium alloy body, and exceptional dynamic range for photography and videography.",
-},
+    name: "Nikon D850 DSLR Camera",
+    price: "KSh 215,000",
+    category: "DSLR and Mirrorless Cameras",
+    image: "/images/nikon-d850.jpg",
+    description:
+      "Professional 45.7MP full-frame DSLR camera featuring a backside-illuminated CMOS sensor, EXPEED 5 image processor, 4K UHD video recording, 153-point autofocus system, 7fps continuous shooting (up to 9fps with battery grip), ISO range 64-25,600, 3.2-inch tilting touchscreen LCD, SnapBridge connectivity, dual card slots (XQD and SD), weather-sealed magnesium alloy body, and exceptional dynamic range for photography and videography.",
+  },
   {
     name: "Sony Alpha A7 IV Mirrorless Camera",
     price: "KSh 200,000",
@@ -265,28 +265,28 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
-  name: "Sony A6400 Mirrorless Camera",
-  price: "KSh 100,000",
-  category: "DSLR and Mirrorless Cameras",
-  image: "/images/sony-a6400.jpg",
-},
-{
-  name: "Sony Alpha A6400 APS-C Mirrorless Camera with 16-50mm Lens Kit",
-  price: "KSh 115,000",
-  category: "DSLR and Mirrorless Cameras",
-  image: "/images/sony-a6400-16-50-kit1.jpg",
-  description:
-    "24.2MP APS-C mirrorless camera featuring Real-Time Eye AF, 4K UHD video recording, 11fps continuous shooting, and a versatile 16-50mm power zoom lens.",
-},
-{
-  name: "Canon EOS 6D DSLR Camera Body",
-  price: "KSh 65,000",
-  category: "DSLR and Mirrorless Cameras",
-  image: "/images/canon-eos-6d-body.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-  description:
-    "Full-frame DSLR camera featuring a 20.2MP CMOS sensor, DIGIC 5+ image processor, built-in Wi-Fi and GPS, and exceptional low-light performance. Ideal for portrait, landscape, and event photography.",
-},
+    name: "Sony A6400 Mirrorless Camera",
+    price: "KSh 100,000",
+    category: "DSLR and Mirrorless Cameras",
+    image: "/images/sony-a6400.jpg",
+  },
+  {
+    name: "Sony Alpha A6400 APS-C Mirrorless Camera with 16-50mm Lens Kit",
+    price: "KSh 115,000",
+    category: "DSLR and Mirrorless Cameras",
+    image: "/images/sony-a6400-16-50-kit1.jpg",
+    description:
+      "24.2MP APS-C mirrorless camera featuring Real-Time Eye AF, 4K UHD video recording, 11fps continuous shooting, and a versatile 16-50mm power zoom lens.",
+  },
+  {
+    name: "Canon EOS 6D DSLR Camera Body",
+    price: "KSh 65,000",
+    category: "DSLR and Mirrorless Cameras",
+    image: "/images/canon-eos-6d-body.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+    description:
+      "Full-frame DSLR camera featuring a 20.2MP CMOS sensor, DIGIC 5+ image processor, built-in Wi-Fi and GPS, and exceptional low-light performance. Ideal for portrait, landscape, and event photography.",
+  },
 
   // Professional Video Camcorders
   {
@@ -341,53 +341,53 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
-  name: "Panasonic HC-X1000 4K Ultra HD Professional Camcorder",
-  oldPrice: "KSh 160,000",
-  price: "KSh 150,000",
-  category: "Professional Video Camcorders",
-  image: "/images/panasonic-hc-x1000.jpg",
-  description: "Professional 4K Ultra HD camcorder featuring 60p/50p recording, 20x optical zoom, advanced image stabilization, and broadcast-quality video performance. Ideal for events, documentaries, churches, news gathering, and professional videography.",
-  specs: [
-    "4K Ultra HD Recording",
-    "60p / 50p Video Capture",
-    "20x Optical Zoom Lens",
-    "3MOS Sensor System",
-    "Built-in ND Filters",
-    "Dual SD Card Slots",
-    "Professional Audio Inputs",
-    "Wi-Fi Remote Control"
-  ],
+    name: "Panasonic HC-X1000 4K Ultra HD Professional Camcorder",
+    oldPrice: "KSh 160,000",
+    price: "KSh 150,000",
+    category: "Professional Video Camcorders",
+    image: "/images/panasonic-hc-x1000.jpg",
+    description: "Professional 4K Ultra HD camcorder featuring 60p/50p recording, 20x optical zoom, advanced image stabilization, and broadcast-quality video performance. Ideal for events, documentaries, churches, news gathering, and professional videography.",
+    specs: [
+      "4K Ultra HD Recording",
+      "60p / 50p Video Capture",
+      "20x Optical Zoom Lens",
+      "3MOS Sensor System",
+      "Built-in ND Filters",
+      "Dual SD Card Slots",
+      "Professional Audio Inputs",
+      "Wi-Fi Remote Control"
+    ],
 
-},
-
-{
-  name: "Panasonic AG-DVX200 4K Handheld Camcorder",
-  oldPrice: "KSh 260,000",
-  price: "KSh 250,000",
-  category: "Professional Video Camcorders",
-  image: "/images/panasonic-ag-dvx200.jpg",
-  description:
-    "Professional 4K handheld camcorder featuring a large 4/3-inch MOS sensor, integrated Leica Dicomar 13x optical zoom lens, UHD 4K recording up to 60p, Full HD slow-motion recording, V-Log L support, dual SD card slots, professional XLR audio inputs, built-in ND filters, and exceptional image quality for weddings, documentaries, events, churches, and broadcast production.",
-},
+  },
 
   {
-  name: "Canon XA65 Professional 4K Camcorder",
-  oldPrice: "KSh 259,000",
-  price: "KSh 240,000",
-  category: "Professional Video Camcorders",
-  image: "/images/canon-xa65.jpg",
-  description: "Professional 4K UHD camcorder featuring a 20x optical zoom lens, Dual Pixel CMOS AF, professional audio inputs, and high-quality recording for events, news, documentaries, churches, and content creation.",
-  specs: [
-    "4K UHD Recording",
-    "20x Optical Zoom Lens",
-    "Dual Pixel CMOS Autofocus",
-    "1/2.3-inch CMOS Sensor",
-    "5-Axis Image Stabilization",
-    "Dual XLR Audio Inputs",
-    "HDMI Output",
-    "Professional Compact Design"
-  ],
-},
+    name: "Panasonic AG-DVX200 4K Handheld Camcorder",
+    oldPrice: "KSh 260,000",
+    price: "KSh 250,000",
+    category: "Professional Video Camcorders",
+    image: "/images/panasonic-ag-dvx200.jpg",
+    description:
+      "Professional 4K handheld camcorder featuring a large 4/3-inch MOS sensor, integrated Leica Dicomar 13x optical zoom lens, UHD 4K recording up to 60p, Full HD slow-motion recording, V-Log L support, dual SD card slots, professional XLR audio inputs, built-in ND filters, and exceptional image quality for weddings, documentaries, events, churches, and broadcast production.",
+  },
+
+  {
+    name: "Canon XA65 Professional 4K Camcorder",
+    oldPrice: "KSh 259,000",
+    price: "KSh 240,000",
+    category: "Professional Video Camcorders",
+    image: "/images/canon-xa65.jpg",
+    description: "Professional 4K UHD camcorder featuring a 20x optical zoom lens, Dual Pixel CMOS AF, professional audio inputs, and high-quality recording for events, news, documentaries, churches, and content creation.",
+    specs: [
+      "4K UHD Recording",
+      "20x Optical Zoom Lens",
+      "Dual Pixel CMOS Autofocus",
+      "1/2.3-inch CMOS Sensor",
+      "5-Axis Image Stabilization",
+      "Dual XLR Audio Inputs",
+      "HDMI Output",
+      "Professional Compact Design"
+    ],
+  },
   {
     name: "Panasonic HC-X2100 4K Pro Camcorder with 24x Optical Zoom",
     price: "KSh 295,000",
@@ -403,57 +403,57 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
-  name: "Sony HXR-NX3/1 NXCAM Professional Handheld Camcorder with 20x Optical Zoom",
-  oldPrice: "KSh 140,000",
-  price: "KSh 130,000",
-  category: "Professional Video Camcorders",
-  image: "/images/sony-hxr-nx3.jpg",
-  description:
-    "Professional NXCAM handheld camcorder featuring 3 x 1/2.8-inch Exmor CMOS sensors, 20x Sony G Optical Zoom Lens, Full HD 1080p recording, built-in Wi-Fi, HDMI output, dual SD card slots, and professional XLR audio inputs.",
+    name: "Sony HXR-NX3/1 NXCAM Professional Handheld Camcorder with 20x Optical Zoom",
+    oldPrice: "KSh 140,000",
+    price: "KSh 130,000",
+    category: "Professional Video Camcorders",
+    image: "/images/sony-hxr-nx3.jpg",
+    description:
+      "Professional NXCAM handheld camcorder featuring 3 x 1/2.8-inch Exmor CMOS sensors, 20x Sony G Optical Zoom Lens, Full HD 1080p recording, built-in Wi-Fi, HDMI output, dual SD card slots, and professional XLR audio inputs.",
   },
   {
-  name: "Sony HXR-NX5U NXCAM Professional Camcorder",
-  oldPrice: "KSh 150,000",
-  price: "KSh 145,000",
-  category: "Professional Video Camcorders",
-  image: "/images/sony-hxr-nx5u.jpg",
-  description:
-    "Professional Full HD NXCAM camcorder featuring 3 x 1/3-inch Exmor CMOS sensors, Sony G Lens with 20x Optical Zoom, dual memory card recording, XLR audio inputs, HDMI output, and broadcast-quality image performance.",
+    name: "Sony HXR-NX5U NXCAM Professional Camcorder",
+    oldPrice: "KSh 150,000",
+    price: "KSh 145,000",
+    category: "Professional Video Camcorders",
+    image: "/images/sony-hxr-nx5u.jpg",
+    description:
+      "Professional Full HD NXCAM camcorder featuring 3 x 1/3-inch Exmor CMOS sensors, Sony G Lens with 20x Optical Zoom, dual memory card recording, XLR audio inputs, HDMI output, and broadcast-quality image performance.",
   },
   {
-  name: "Sony HXR-NX80 4K Handycam",
-  price: "KSh 230,000",
-  category: "Professional Video Camcorders",
-  image: "/images/sony-hxr-nx80.jpg",
-  description:
-    "Professional 4K handheld camcorder featuring a 1-inch Exmor RS CMOS sensor, ZEISS 12x optical zoom lens, Fast Hybrid Autofocus with 273 phase-detection points, XAVC S 4K recording up to 100Mbps, HDR (HLG), S-Log3 and S-Gamut3 profiles, dual SD card slots, built-in ND filters, Full HD recording up to 120fps, 3.5-inch touchscreen LCD, OLED viewfinder, and detachable XLR audio handle with two XLR inputs for professional audio recording.",
-},
-{
-  name: "Panasonic HC-X1000 4K Ultra HD Professional Camcorder",
-  oldPrice: "KSh 160,000",
-  price: "KSh 150,000",
-  category: "Professional Video Camcorders",
-  image: "/images/panasonic-hc-x1000.jpg",
-  description: "Professional 4K Ultra HD camcorder featuring 60p/50p recording, 20x optical zoom, advanced image stabilization, and broadcast-quality video performance. Ideal for events, documentaries, churches, news gathering, and professional videography.",
-  specs: [
-    "4K Ultra HD Recording",
-    "60p / 50p Video Capture",
-    "20x Optical Zoom Lens",
-    "3MOS Sensor System",
-    "Built-in ND Filters",
-    "Dual SD Card Slots",
-    "Professional Audio Inputs",
-    "Wi-Fi Remote Control"
-  ],
-},
-{
-  name: "Panasonic HC-X1500 4K Professional Camcorder",
-  price: "KSh 240,000",
-  category: "Professional Video Camcorders",
-  image: "/images/panasonic-hc-x1500.jpg",
-  description:
-    "Compact professional 4K camcorder featuring a 1/2.5-inch MOS sensor, Leica Dicomar 24x optical zoom lens (25-600mm equivalent), UHD 4K recording up to 60p, 4:2:2 10-bit internal recording, 5-axis Hybrid Optical Image Stabilization, built-in ND filters, dual SD card slots, high-precision autofocus, Full HD slow motion up to 120fps, Wi-Fi live streaming, and a lightweight design ideal for event, church, documentary, and broadcast productions.",
-},
+    name: "Sony HXR-NX80 4K Handycam",
+    price: "KSh 230,000",
+    category: "Professional Video Camcorders",
+    image: "/images/sony-hxr-nx80.jpg",
+    description:
+      "Professional 4K handheld camcorder featuring a 1-inch Exmor RS CMOS sensor, ZEISS 12x optical zoom lens, Fast Hybrid Autofocus with 273 phase-detection points, XAVC S 4K recording up to 100Mbps, HDR (HLG), S-Log3 and S-Gamut3 profiles, dual SD card slots, built-in ND filters, Full HD recording up to 120fps, 3.5-inch touchscreen LCD, OLED viewfinder, and detachable XLR audio handle with two XLR inputs for professional audio recording.",
+  },
+  {
+    name: "Panasonic HC-X1000 4K Ultra HD Professional Camcorder",
+    oldPrice: "KSh 160,000",
+    price: "KSh 150,000",
+    category: "Professional Video Camcorders",
+    image: "/images/panasonic-hc-x1000.jpg",
+    description: "Professional 4K Ultra HD camcorder featuring 60p/50p recording, 20x optical zoom, advanced image stabilization, and broadcast-quality video performance. Ideal for events, documentaries, churches, news gathering, and professional videography.",
+    specs: [
+      "4K Ultra HD Recording",
+      "60p / 50p Video Capture",
+      "20x Optical Zoom Lens",
+      "3MOS Sensor System",
+      "Built-in ND Filters",
+      "Dual SD Card Slots",
+      "Professional Audio Inputs",
+      "Wi-Fi Remote Control"
+    ],
+  },
+  {
+    name: "Panasonic HC-X1500 4K Professional Camcorder",
+    price: "KSh 240,000",
+    category: "Professional Video Camcorders",
+    image: "/images/panasonic-hc-x1500.jpg",
+    description:
+      "Compact professional 4K camcorder featuring a 1/2.5-inch MOS sensor, Leica Dicomar 24x optical zoom lens (25-600mm equivalent), UHD 4K recording up to 60p, 4:2:2 10-bit internal recording, 5-axis Hybrid Optical Image Stabilization, built-in ND filters, dual SD card slots, high-precision autofocus, Full HD slow motion up to 120fps, Wi-Fi live streaming, and a lightweight design ideal for event, church, documentary, and broadcast productions.",
+  },
 
   // CINEMA CAMERAS
   {
@@ -499,21 +499,21 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
-  name: "Blackmagic Design Pocket Cinema Camera 4K",
-  slug: "blackmagic-pocket-cinema-camera-4k",
-  oldPrice: "KSh 120,000",
-  price: "KSh 110,000",
-  category: "Cinema Cameras",
-  image: "/images/blackmagic-pocket-cinema-camera-4k.jpg",
-  description: "Professional digital cinema camera with 4/3 sensor and 4K recording.",
-  specs: [
-    "4/3 HDR Sensor",
-    "DCI 4K Recording",
-    "13 Stops Dynamic Range",
-    "Blackmagic RAW",
-    "Dual Native ISO"
-  ]
-},
+    name: "Blackmagic Design Pocket Cinema Camera 4K",
+    slug: "blackmagic-pocket-cinema-camera-4k",
+    oldPrice: "KSh 120,000",
+    price: "KSh 110,000",
+    category: "Cinema Cameras",
+    image: "/images/blackmagic-pocket-cinema-camera-4k.jpg",
+    description: "Professional digital cinema camera with 4/3 sensor and 4K recording.",
+    specs: [
+      "4/3 HDR Sensor",
+      "DCI 4K Recording",
+      "13 Stops Dynamic Range",
+      "Blackmagic RAW",
+      "Dual Native ISO"
+    ]
+  },
   //Wireless Video Transmission Systems
   {
     name: "Hollyland Pyro H Wireless Video Transmission System - HDMI",
@@ -544,13 +544,13 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
-  name: "Hollyland Pyro S Wireless Video Transmission System HDMI/SDI 4K30",
-  price: "KSh 54,000",
-  category: "Wireless Video Transmission Systems",
-  image: "/images/hollyland-pyro-s-wireless-video-transmission-system.jpg",
-  description:
-    "Professional wireless video transmission system featuring HDMI and SDI input/output, UHD 4K30 video transmission, up to 1300ft (400m) line-of-sight range, ultra-low 50ms latency, Auto Dual-Band Hopping (ADH) technology, 2.4GHz and 5GHz dual-band transmission, support for up to 4 receivers simultaneously, UVC and RTMP streaming support, smart channel scanning, LCD display, and reliable wireless monitoring for filmmaking, livestreaming, broadcast, and event production.",
-},
+    name: "Hollyland Pyro S Wireless Video Transmission System HDMI/SDI 4K30",
+    price: "KSh 54,000",
+    category: "Wireless Video Transmission Systems",
+    image: "/images/hollyland-pyro-s-wireless-video-transmission-system.jpg",
+    description:
+      "Professional wireless video transmission system featuring HDMI and SDI input/output, UHD 4K30 video transmission, up to 1300ft (400m) line-of-sight range, ultra-low 50ms latency, Auto Dual-Band Hopping (ADH) technology, 2.4GHz and 5GHz dual-band transmission, support for up to 4 receivers simultaneously, UVC and RTMP streaming support, smart channel scanning, LCD display, and reliable wireless monitoring for filmmaking, livestreaming, broadcast, and event production.",
+  },
   // Camera Lenses
   {
     name: "Canon EF-S 18-135mm Standard Zoom Lens",
@@ -560,13 +560,13 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
-  name: "Sony FE 24-70mm f/2.8 GM Lens",
-  price: "KSh 200,000",
-  category: "Camera Lenses",
-  image: "/images/sony-fe-24-70mm-f2-8-gm-lens.jpg",
-  description:
-    "Premium G Master standard zoom lens for Sony E-mount full-frame cameras featuring a versatile 24-70mm focal range, constant f/2.8 maximum aperture, exceptional sharpness, beautiful bokeh, Nano AR coating, Direct Drive SSM autofocus system, dust and moisture-resistant construction, and professional-grade optical performance for photography and video production.",
-},
+    name: "Sony FE 24-70mm f/2.8 GM Lens",
+    price: "KSh 200,000",
+    category: "Camera Lenses",
+    image: "/images/sony-fe-24-70mm-f2-8-gm-lens.jpg",
+    description:
+      "Premium G Master standard zoom lens for Sony E-mount full-frame cameras featuring a versatile 24-70mm focal range, constant f/2.8 maximum aperture, exceptional sharpness, beautiful bokeh, Nano AR coating, Direct Drive SSM autofocus system, dust and moisture-resistant construction, and professional-grade optical performance for photography and video production.",
+  },
 
   {
     name: "Sigma 150-600mm f/5-6.3 Contemporary DG OS HSM Lens",
@@ -647,91 +647,91 @@ export const products: any[] = [
     image: "/images/sigma-150-600mm-dg-dn-sports-sony.jpg",
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
-{
-  name: "Canon EF 70-300mm f/4-5.6L IS USM Lens",
-  slug: "canon-ef-70-300mm-f4-5-6l-is-usm",
-  oldPrice: "KSh 120,000",
-  price: "KSh 110,000",
-  category: "Camera Lenses",
-  image: "/images/canon-ef-70-300mm-l-is-usm.jpg",
-  description: "Professional Canon L-Series telephoto zoom lens with Image Stabilization and fast USM autofocus.",
-  specs: [
-    "70-300mm Focal Length",
-    "L-Series Professional Lens",
-    "Image Stabilization (IS)",
-    "Ring-Type USM Autofocus",
-    "Weather Resistant Construction",
-    "Compatible with Canon EF Mount Cameras"
-  ],
-},
-{
-  name: "Canon EF 70-200mm f/2.8L IS II USM Lens",
-  oldPrice: "KSh 140,000",
-  price: "KSh 130,000",
-  category: "Camera Lenses",
-  image: "/images/canon-70-200mm-f2-8l-is-ii-usm.jpg",
-  description: "Professional Canon L-Series telephoto zoom lens with constant f/2.8 aperture, Image Stabilization, and fast USM autofocus. Ideal for sports, wildlife, events, weddings, and portrait photography.",
-  specs: [
-    "70-200mm Focal Length",
-    "Constant f/2.8 Aperture",
-    "Image Stabilization (IS)",
-    "Ring-Type USM Autofocus",
-    "Professional L-Series Optics",
-    "Weather-Sealed Construction",
-    "Canon EF Mount"
-  ],
-},
+  {
+    name: "Canon EF 70-300mm f/4-5.6L IS USM Lens",
+    slug: "canon-ef-70-300mm-f4-5-6l-is-usm",
+    oldPrice: "KSh 120,000",
+    price: "KSh 110,000",
+    category: "Camera Lenses",
+    image: "/images/canon-ef-70-300mm-l-is-usm.jpg",
+    description: "Professional Canon L-Series telephoto zoom lens with Image Stabilization and fast USM autofocus.",
+    specs: [
+      "70-300mm Focal Length",
+      "L-Series Professional Lens",
+      "Image Stabilization (IS)",
+      "Ring-Type USM Autofocus",
+      "Weather Resistant Construction",
+      "Compatible with Canon EF Mount Cameras"
+    ],
+  },
+  {
+    name: "Canon EF 70-200mm f/2.8L IS II USM Lens",
+    oldPrice: "KSh 140,000",
+    price: "KSh 130,000",
+    category: "Camera Lenses",
+    image: "/images/canon-70-200mm-f2-8l-is-ii-usm.jpg",
+    description: "Professional Canon L-Series telephoto zoom lens with constant f/2.8 aperture, Image Stabilization, and fast USM autofocus. Ideal for sports, wildlife, events, weddings, and portrait photography.",
+    specs: [
+      "70-200mm Focal Length",
+      "Constant f/2.8 Aperture",
+      "Image Stabilization (IS)",
+      "Ring-Type USM Autofocus",
+      "Professional L-Series Optics",
+      "Weather-Sealed Construction",
+      "Canon EF Mount"
+    ],
+  },
 
-{
-  name: "Panasonic Leica DG Vario-Elmarit 12-60mm f/2.8-4.0 ASPH Power O.I.S Lens",
-  slug: "panasonic-leica-12-60mm-f2-8-4",
-  oldPrice: "KSh 110,000",
-  price: "KSh 100,000",
-  category: "Camera Lenses",
-  image: "/images/panasonic-leica-12-60mm.jpg",
-  description: "Premium Leica-branded Micro Four Thirds zoom lens with Power O.I.S and Dual I.S. 2.0 support.",
-  specs: [
-    "12-60mm Focal Length",
-    "f/2.8-4.0 Aperture",
-    "Micro Four Thirds Mount",
-    "Leica DG Vario-Elmarit Optics",
-    "Power O.I.S Image Stabilization",
-    "Dual I.S. 2.0 Compatible",
-    "Splash, Dust and Freeze Resistant"
-  ]
+  {
+    name: "Panasonic Leica DG Vario-Elmarit 12-60mm f/2.8-4.0 ASPH Power O.I.S Lens",
+    slug: "panasonic-leica-12-60mm-f2-8-4",
+    oldPrice: "KSh 110,000",
+    price: "KSh 100,000",
+    category: "Camera Lenses",
+    image: "/images/panasonic-leica-12-60mm.jpg",
+    description: "Premium Leica-branded Micro Four Thirds zoom lens with Power O.I.S and Dual I.S. 2.0 support.",
+    specs: [
+      "12-60mm Focal Length",
+      "f/2.8-4.0 Aperture",
+      "Micro Four Thirds Mount",
+      "Leica DG Vario-Elmarit Optics",
+      "Power O.I.S Image Stabilization",
+      "Dual I.S. 2.0 Compatible",
+      "Splash, Dust and Freeze Resistant"
+    ]
 
-},
-{
-  name: "Canon RF24-105mm F4-7.1 IS STM Lens",
-  price: "KSh 52,000",
-  category: "Camera Lenses",
-  image: "/images/canon-rf24-105mm-f4-7-1-is-stm.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-  description:
-    "Compact and versatile standard zoom lens for Canon EOS R-series cameras. Features a 24-105mm focal range, Optical Image Stabilization, and a quiet STM autofocus motor ideal for both photography and video.",
-}
-,
-{
-  name: "Sony 28-70mm F3.5-5.6 FE OSS Lens",
-  price: "KSh 31,000",
-  category: "Camera Lenses",
-  image: "/images/sony-fe-28-70mm-f3-5-5-6-oss.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-  description:
-    "Compact full-frame standard zoom lens for Sony E-mount cameras. Features a versatile 28-70mm focal range, Optical SteadyShot image stabilization, and quiet autofocus, making it ideal for everyday photography and video.",
-}
-,
-{
-  name: "Sigma 18-35mm F1.8 DC HSM Art Lens for Canon EF",
-  price: "KSh 69,000",
-  category: "Lenses",
-  image: "/images/sigma-18-35mm-f1-8-dc-hsm-art-canon.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-  description:
-    "Professional APS-C standard zoom lens featuring a fast constant f/1.8 aperture, Hyper Sonic Motor autofocus, and exceptional image quality. Ideal for portraits, weddings, events, and video production.",
-},
+  },
+  {
+    name: "Canon RF24-105mm F4-7.1 IS STM Lens",
+    price: "KSh 52,000",
+    category: "Camera Lenses",
+    image: "/images/canon-rf24-105mm-f4-7-1-is-stm.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+    description:
+      "Compact and versatile standard zoom lens for Canon EOS R-series cameras. Features a 24-105mm focal range, Optical Image Stabilization, and a quiet STM autofocus motor ideal for both photography and video.",
+  }
+  ,
+  {
+    name: "Sony 28-70mm F3.5-5.6 FE OSS Lens",
+    price: "KSh 31,000",
+    category: "Camera Lenses",
+    image: "/images/sony-fe-28-70mm-f3-5-5-6-oss.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+    description:
+      "Compact full-frame standard zoom lens for Sony E-mount cameras. Features a versatile 28-70mm focal range, Optical SteadyShot image stabilization, and quiet autofocus, making it ideal for everyday photography and video.",
+  }
+  ,
+  {
+    name: "Sigma 18-35mm F1.8 DC HSM Art Lens for Canon EF",
+    price: "KSh 69,000",
+    category: "Lenses",
+    image: "/images/sigma-18-35mm-f1-8-dc-hsm-art-canon.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+    description:
+      "Professional APS-C standard zoom lens featuring a fast constant f/1.8 aperture, Hyper Sonic Motor autofocus, and exceptional image quality. Ideal for portraits, weddings, events, and video production.",
+  },
 
-// Audio Equipment
+  // Audio Equipment
   {
     name: "RODE Wireless PRO",
     price: "KSh 40,000",
@@ -928,28 +928,28 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
-  name: "Electro-Voice RE320 Variable-D Dynamic Vocal & Instrument Microphone",
-  price: "KSh 55,000",
-  category: "Audio Equipment",
-  image: "/images/electro-voice-re320.jpg",
-  description:
-    "Professional dynamic cardioid microphone featuring Variable-D technology, low handling noise, humbucking coil design, and a dual-voice switch optimized for vocals, broadcasting, podcasting, instruments, and kick drums.",
+    name: "Electro-Voice RE320 Variable-D Dynamic Vocal & Instrument Microphone",
+    price: "KSh 55,000",
+    category: "Audio Equipment",
+    image: "/images/electro-voice-re320.jpg",
+    description:
+      "Professional dynamic cardioid microphone featuring Variable-D technology, low handling noise, humbucking coil design, and a dual-voice switch optimized for vocals, broadcasting, podcasting, instruments, and kick drums.",
   },
   {
-  name: "Electro-Voice RE20 Dynamic Cardioid Microphone",
-  price: "KSh 68,000",
-  category: "Audio Equipment",
-  image: "/images/electro-voice-re20.jpg",
-  description:
-    "Industry-standard dynamic cardioid microphone featuring Variable-D technology, built-in pop filter, low handling noise, and exceptional off-axis rejection. Ideal for broadcasting, podcasting, voice-over work, vocals, kick drums, and studio recording.",
+    name: "Electro-Voice RE20 Dynamic Cardioid Microphone",
+    price: "KSh 68,000",
+    category: "Audio Equipment",
+    image: "/images/electro-voice-re20.jpg",
+    description:
+      "Industry-standard dynamic cardioid microphone featuring Variable-D technology, built-in pop filter, low handling noise, and exceptional off-axis rejection. Ideal for broadcasting, podcasting, voice-over work, vocals, kick drums, and studio recording.",
   },
   {
-  name: "Electro-Voice RE20 Dynamic Cardioid Microphone",
-  price: "KSh 68,000",
-  category: "Audio Equipment",
-  image: "/images/electro-voicei-re20.jpg",
-  description:
-    "Industry-standard dynamic cardioid microphone featuring Variable-D technology, built-in pop filter, low handling noise, and exceptional off-axis rejection. Ideal for broadcasting, podcasting, voice-over work, vocals, kick drums, and studio recording.",
+    name: "Electro-Voice RE20 Dynamic Cardioid Microphone",
+    price: "KSh 68,000",
+    category: "Audio Equipment",
+    image: "/images/electro-voicei-re20.jpg",
+    description:
+      "Industry-standard dynamic cardioid microphone featuring Variable-D technology, built-in pop filter, low handling noise, and exceptional off-axis rejection. Ideal for broadcasting, podcasting, voice-over work, vocals, kick drums, and studio recording.",
   },
 
 
@@ -1057,34 +1057,34 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
-  name: "Rode LIMITED EDITION RODECaster Video Podcast Bundle Core Kit",
-  price: "KSh 300,000",
-  category: "Live Streaming Equipment",
-  image: "/images/rode-rodecaster-video-podcast-bundle-core-kit.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-  description:
-    "Professional all-in-one podcast and video production bundle featuring the RØDECaster Video, OBSBOT TailAir PTZ camera, 2 PodMic microphones, 2 PSA1 studio arms, Wireless ME system, headphones, XLR cables, HDMI cable, and 128GB SD card. Ideal for podcasts, livestreaming, interviews, and content creation."
-},
+    name: "Rode LIMITED EDITION RODECaster Video Podcast Bundle Core Kit",
+    price: "KSh 300,000",
+    category: "Live Streaming Equipment",
+    image: "/images/rode-rodecaster-video-podcast-bundle-core-kit.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+    description:
+      "Professional all-in-one podcast and video production bundle featuring the RØDECaster Video, OBSBOT TailAir PTZ camera, 2 PodMic microphones, 2 PSA1 studio arms, Wireless ME system, headphones, XLR cables, HDMI cable, and 128GB SD card. Ideal for podcasts, livestreaming, interviews, and content creation."
+  },
   //  Monitors & Recorders
   {
-  name: "Atomos Ninja V 5-Inch 4K HDR Monitor Recorder",
-  slug: "atomos-ninja-v-4k-hdr-monitor-recorder",
-  price: "KSh 75,000",
-  category: "Monitors & Recorders",
-  image: "/images/atomos-ninja-v.jpg",
-  description: "Professional 5-inch HDR monitor and recorder designed for filmmakers, videographers, and content creators.",
-  specs: [
-    "5-inch 1920 x 1080 Touchscreen Display",
-    "1000 Nit Daylight Viewable Screen",
-    "4Kp60 Recording",
-    "10-bit HDR Monitoring",
-    "HDMI Input & Output",
-    "Apple ProRes Recording",
-    "Avid DNx Recording",
-    "AtomX Expansion Compatible",
-    "Portable Lightweight Design"
-  ]
-},
+    name: "Atomos Ninja V 5-Inch 4K HDR Monitor Recorder",
+    slug: "atomos-ninja-v-4k-hdr-monitor-recorder",
+    price: "KSh 75,000",
+    category: "Monitors & Recorders",
+    image: "/images/atomos-ninja-v.jpg",
+    description: "Professional 5-inch HDR monitor and recorder designed for filmmakers, videographers, and content creators.",
+    specs: [
+      "5-inch 1920 x 1080 Touchscreen Display",
+      "1000 Nit Daylight Viewable Screen",
+      "4Kp60 Recording",
+      "10-bit HDR Monitoring",
+      "HDMI Input & Output",
+      "Apple ProRes Recording",
+      "Avid DNx Recording",
+      "AtomX Expansion Compatible",
+      "Portable Lightweight Design"
+    ]
+  },
   {
     name: "Atomos Shinobi 5 HDMI Monitor",
     price: "KSh 50,000",
@@ -1093,7 +1093,7 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
 
-  
+
   //  PTZ Cameras
   {
     name: "NewTek Vizrt NDI|HX 20x PTZ3 Camera",
@@ -1104,14 +1104,14 @@ export const products: any[] = [
   },
 
   {
-  name: "FoMaKo K800N 4K NDI PTZ Camera (Black)",
-  price: "KSh 170,000",
-  category: "PTZ Cameras",
-  image: "/images/fomako-k800n-4k-ndi-ptz-camera.jpg",
-  description:
-    "Professional 4K PTZ camera featuring a 1/2.8-inch CMOS sensor, 20x optical zoom, Gen 3 AI Auto-Tracking, NDI|HX3 support, HDMI, 3G-SDI, LAN and USB 3.0 outputs, Power over Ethernet (PoE), UHD 4K video, low-latency IP streaming, and advanced remote control capabilities. Ideal for churches, live events, conferences, education, broadcast studios, and professional livestreaming productions.",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-},
+    name: "FoMaKo K800N 4K NDI PTZ Camera (Black)",
+    price: "KSh 170,000",
+    category: "PTZ Cameras",
+    image: "/images/fomako-k800n-4k-ndi-ptz-camera.jpg",
+    description:
+      "Professional 4K PTZ camera featuring a 1/2.8-inch CMOS sensor, 20x optical zoom, Gen 3 AI Auto-Tracking, NDI|HX3 support, HDMI, 3G-SDI, LAN and USB 3.0 outputs, Power over Ethernet (PoE), UHD 4K video, low-latency IP streaming, and advanced remote control capabilities. Ideal for churches, live events, conferences, education, broadcast studios, and professional livestreaming productions.",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+  },
 
   {
     name: "BirdDog X5 Ultra PTZ Camera with 20x Optical Zoom",
@@ -1129,123 +1129,123 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
-  name: "FoMaKo 4K PTZ Camera AI Auto-Tracking Gen 3",
-  slug: "fomako-4k-ptz-camera-k20uh",
-  price: "KSh 180,000",
-  category: "PTZ Cameras",
-  image: "/images/fomako-k20uh-ptz-camera.jpg",
-  description: "Professional 4K PTZ camera with AI Auto-Tracking, 20x optical zoom, NDI HX3 support, and multiple connectivity options for churches, conferences, education, and live production.",
-  specs: [
-    "4K Ultra HD Resolution",
-    "AI Auto-Tracking Gen 3",
-    "20x Optical Zoom",
-    "NDI 6 & NDI HX3 Support",
-    "HDMI Output",
-    "USB 3.0 Connectivity",
-    "LAN/IP Streaming",
-    "PoE Support",
-    "Remote PTZ Control",
-    "Ideal for Church Worship",
-    "Conference & Event Production",
-    "Education & Live Streaming"
-  ]
-},
-{
-  name: "Canon CR-N500 Professional 4K NDI PTZ Camera – Satin Black",
-  price: "KSh 950,000",
-  category: "PTZ Cameras",
-  image: "/images/canon-cr-n500-black.jpg",
-  description:
-    "Professional 4K PTZ camera featuring a 1-inch CMOS sensor, 15x optical zoom lens, Dual Pixel CMOS Autofocus, DIGIC DV 6 processor, NDI|HX support, HDMI and 3G-SDI outputs, PoE+, Canon Log 3, built-in ND filters, and smooth remote pan, tilt, and zoom control for broadcast, church, corporate, education, and live production environments.",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-},
-{
-  name: "Canon CR-N300 4K NDI PTZ Camera",
-  price: "KSh 520,000",
-  category: "PTZ Cameras",
-  image: "/images/canon-cr-n300-4k-ndi-ptz-camera.jpg",
-  description:
-    "Professional 4K PTZ camera featuring a 1/2.3-inch CMOS sensor, 20x optical zoom, Canon DIGIC DV6 image processor, NDI|HX support, IP streaming, HDMI and 3G-SDI outputs, USB connectivity, advanced autofocus, smooth pan/tilt movement, and remote operation for churches, live events, education, broadcast studios, and conference productions.",
-},
-{
-  name: "Canon CR-N100 4K NDI PTZ Camera with 20x Zoom (Satin Black) (6527C001) + HDMI Cable + 6 Assorted Color Cable Ties + Network Cable + Cleaning Kit",
-  price: "KSh 385,000",
-  category: "PTZ Cameras",
-  image: "/images/canon-cr-n100-4k-ndi-ptz-camera.jpg",
-  description:
-    "Professional 4K PTZ camera featuring a 1/2.3-inch CMOS sensor, 20x optical zoom lens, Canon DIGIC DV6 image processor, NDI|HX support, HDMI output, IP streaming, USB connectivity, advanced Hybrid Auto Focus, smooth pan and tilt control, PoE+ support, and remote operation. Bundle includes HDMI cable, network cable, 6 assorted color cable ties, and cleaning kit, making it ideal for churches, livestreaming, conferences, education, and professional video production.",
-},
-{
-  name: "Tenveo HDMI/LAN/USB3.0 PoE PTZ Camera 20X Optical Zoom",
-  price: "KSh 80,000",
-  category: "PTZ Cameras",
-  image: "/images/tenveo-20x-ptz-camera.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-},
+    name: "FoMaKo 4K PTZ Camera AI Auto-Tracking Gen 3",
+    slug: "fomako-4k-ptz-camera-k20uh",
+    price: "KSh 180,000",
+    category: "PTZ Cameras",
+    image: "/images/fomako-k20uh-ptz-camera.jpg",
+    description: "Professional 4K PTZ camera with AI Auto-Tracking, 20x optical zoom, NDI HX3 support, and multiple connectivity options for churches, conferences, education, and live production.",
+    specs: [
+      "4K Ultra HD Resolution",
+      "AI Auto-Tracking Gen 3",
+      "20x Optical Zoom",
+      "NDI 6 & NDI HX3 Support",
+      "HDMI Output",
+      "USB 3.0 Connectivity",
+      "LAN/IP Streaming",
+      "PoE Support",
+      "Remote PTZ Control",
+      "Ideal for Church Worship",
+      "Conference & Event Production",
+      "Education & Live Streaming"
+    ]
+  },
+  {
+    name: "Canon CR-N500 Professional 4K NDI PTZ Camera – Satin Black",
+    price: "KSh 950,000",
+    category: "PTZ Cameras",
+    image: "/images/canon-cr-n500-black.jpg",
+    description:
+      "Professional 4K PTZ camera featuring a 1-inch CMOS sensor, 15x optical zoom lens, Dual Pixel CMOS Autofocus, DIGIC DV 6 processor, NDI|HX support, HDMI and 3G-SDI outputs, PoE+, Canon Log 3, built-in ND filters, and smooth remote pan, tilt, and zoom control for broadcast, church, corporate, education, and live production environments.",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+  },
+  {
+    name: "Canon CR-N300 4K NDI PTZ Camera",
+    price: "KSh 520,000",
+    category: "PTZ Cameras",
+    image: "/images/canon-cr-n300-4k-ndi-ptz-camera.jpg",
+    description:
+      "Professional 4K PTZ camera featuring a 1/2.3-inch CMOS sensor, 20x optical zoom, Canon DIGIC DV6 image processor, NDI|HX support, IP streaming, HDMI and 3G-SDI outputs, USB connectivity, advanced autofocus, smooth pan/tilt movement, and remote operation for churches, live events, education, broadcast studios, and conference productions.",
+  },
+  {
+    name: "Canon CR-N100 4K NDI PTZ Camera with 20x Zoom (Satin Black) (6527C001) + HDMI Cable + 6 Assorted Color Cable Ties + Network Cable + Cleaning Kit",
+    price: "KSh 385,000",
+    category: "PTZ Cameras",
+    image: "/images/canon-cr-n100-4k-ndi-ptz-camera.jpg",
+    description:
+      "Professional 4K PTZ camera featuring a 1/2.3-inch CMOS sensor, 20x optical zoom lens, Canon DIGIC DV6 image processor, NDI|HX support, HDMI output, IP streaming, USB connectivity, advanced Hybrid Auto Focus, smooth pan and tilt control, PoE+ support, and remote operation. Bundle includes HDMI cable, network cable, 6 assorted color cable ties, and cleaning kit, making it ideal for churches, livestreaming, conferences, education, and professional video production.",
+  },
+  {
+    name: "Tenveo HDMI/LAN/USB3.0 PoE PTZ Camera 20X Optical Zoom",
+    price: "KSh 80,000",
+    category: "PTZ Cameras",
+    image: "/images/tenveo-20x-ptz-camera.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+  },
   // Drones
 
-{
-  name: "DJI Mini 4 Pro (DJI RC 2)",
-  price: "KSh 145,000",
-  category: "Drones",
-  image: "/images/dji-mini-4-pro-rc2.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-  outOfStock: true,
-},
+  {
+    name: "DJI Mini 4 Pro (DJI RC 2)",
+    price: "KSh 145,000",
+    category: "Drones",
+    image: "/images/dji-mini-4-pro-rc2.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+    outOfStock: true,
+  },
 
-{
-  name: "DJI Mini 2 Fly More Combo Drone",
-  price: "KSh 90,000",
-  category: "Drones",
-  image: "/images/dji-mini-2.jpg",
-  outOfStock: true,
-  description:
-    "Ultra-lightweight 249g drone featuring 4K video recording, 12MP photos, 31-minute flight time, OcuSync 2.0 transmission, Level 5 wind resistance, and up to 10km HD video transmission range.",
-},
+  {
+    name: "DJI Mini 2 Fly More Combo Drone",
+    price: "KSh 90,000",
+    category: "Drones",
+    image: "/images/dji-mini-2.jpg",
+    outOfStock: true,
+    description:
+      "Ultra-lightweight 249g drone featuring 4K video recording, 12MP photos, 31-minute flight time, OcuSync 2.0 transmission, Level 5 wind resistance, and up to 10km HD video transmission range.",
+  },
 
-{
-  name: "DJI Mini 3 Quadcopter Drone with DJI RC Controller",
-  price: "KSh 120,000",
-  category: "Drones",
-  image: "/images/dji-mini-3-dji-rc.jpg",
-  outOfStock: true,
-  description:
-    "Ultra-lightweight 249g drone featuring 4K HDR video, 48MP photos, True Vertical Shooting, up to 38 minutes flight time, intelligent flight modes, and DJI RC remote controller with a built-in display.",
-},
+  {
+    name: "DJI Mini 3 Quadcopter Drone with DJI RC Controller",
+    price: "KSh 120,000",
+    category: "Drones",
+    image: "/images/dji-mini-3-dji-rc.jpg",
+    outOfStock: true,
+    description:
+      "Ultra-lightweight 249g drone featuring 4K HDR video, 48MP photos, True Vertical Shooting, up to 38 minutes flight time, intelligent flight modes, and DJI RC remote controller with a built-in display.",
+  },
 
-{
-  name: "DJI Mini 5 Pro Fly More Combo Plus with DJI RC 2",
-  price: "KSh 205,000",
-  category: "Drones",
-  image: "/images/dji-mini-5-pro-rc2.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-  outOfStock: true,
-},
+  {
+    name: "DJI Mini 5 Pro Fly More Combo Plus with DJI RC 2",
+    price: "KSh 205,000",
+    category: "Drones",
+    image: "/images/dji-mini-5-pro-rc2.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+    outOfStock: true,
+  },
 
-{
-  name: "DJI Mini 2 Fly More Combo",
-  price: "KSh 90,000",
-  category: "Drones",
-  image: "/images/dji-mini-2-flymore.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-  outOfStock: true,
-},
+  {
+    name: "DJI Mini 2 Fly More Combo",
+    price: "KSh 90,000",
+    category: "Drones",
+    image: "/images/dji-mini-2-flymore.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+    outOfStock: true,
+  },
 
-{
-  name: "DJI Neo Fly More Combo Mini Drone with 4K UHD Camera",
-  price: "KSh 90,000",
-  category: "Drones",
-  image: "/images/dji-neo-flymore.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-  outOfStock: true,
-},
-{
-  name: "DJI Mini 3 Pro Drone + Pro Fly More Kit",
-  price: "KSh 150,000",
-  category: "Drones",
-  image: "/images/dji-mini-3-pro-fly-more-kit.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-},
+  {
+    name: "DJI Neo Fly More Combo Mini Drone with 4K UHD Camera",
+    price: "KSh 90,000",
+    category: "Drones",
+    image: "/images/dji-neo-flymore.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+    outOfStock: true,
+  },
+  {
+    name: "DJI Mini 3 Pro Drone + Pro Fly More Kit",
+    price: "KSh 150,000",
+    category: "Drones",
+    image: "/images/dji-mini-3-pro-fly-more-kit.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+  },
 
   // ACTION CAMERAS
   {
@@ -1288,23 +1288,23 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
-  name: "DJI Osmo Pocket 3 Creator Combo",
-  oldPrice: "KSh 78,000",
-  price: "KSh 70,000",
-  category: "Action Cameras",
-  image: "/images/dji-osmo-pocket-3-creator-combo.jpg",
-  description:
-    "Compact 3-axis stabilized pocket camera featuring a 1-inch CMOS sensor, 4K/120fps recording, 2-inch rotatable touchscreen, ActiveTrack 6.0, full-pixel fast focusing, D-Log M 10-bit color, DJI Mic 2 transmitter, battery handle, mini tripod, wide-angle lens, and creator accessories for vlogging and content creation.",
-},
-{
-  name: "GoPro HERO13 Black Creator Edition",
-  price: "KSh 70,000",
-  category: "Action Cameras",
-  image: "/images/gopro-hero13-black-creator-edition.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera",
-  description:
-    "Professional creator bundle featuring the HERO13 Black action camera with Volta battery grip, Media Mod, Light Mod, Enduro Battery, and Magnetic Latch Mount. Delivers stunning 5.3K60 video, HyperSmooth 6.0 stabilization, and extended battery life for vlogging and content creation.",
-},
+    name: "DJI Osmo Pocket 3 Creator Combo",
+    oldPrice: "KSh 78,000",
+    price: "KSh 70,000",
+    category: "Action Cameras",
+    image: "/images/dji-osmo-pocket-3-creator-combo.jpg",
+    description:
+      "Compact 3-axis stabilized pocket camera featuring a 1-inch CMOS sensor, 4K/120fps recording, 2-inch rotatable touchscreen, ActiveTrack 6.0, full-pixel fast focusing, D-Log M 10-bit color, DJI Mic 2 transmitter, battery handle, mini tripod, wide-angle lens, and creator accessories for vlogging and content creation.",
+  },
+  {
+    name: "GoPro HERO13 Black Creator Edition",
+    price: "KSh 70,000",
+    category: "Action Cameras",
+    image: "/images/gopro-hero13-black-creator-edition.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera",
+    description:
+      "Professional creator bundle featuring the HERO13 Black action camera with Volta battery grip, Media Mod, Light Mod, Enduro Battery, and Magnetic Latch Mount. Delivers stunning 5.3K60 video, HyperSmooth 6.0 stabilization, and extended battery life for vlogging and content creation.",
+  },
 
   // Lighting Equipment
   {
@@ -1484,7 +1484,7 @@ export const products: any[] = [
     image: "/images/gigastone-128gb-v30.jpg",
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
- // "Camera Accessories
+  // "Camera Accessories
 
   // Tripods & Stabilizers
   {
@@ -1534,7 +1534,7 @@ export const products: any[] = [
     image: "/images/neewer-tp14b.jpg",
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
-// Batteries & Chargers
+  // Batteries & Chargers
   {
     name: "NEEWER V Mount Battery PS099E 99Wh",
     price: "KSh 15,000",
@@ -1574,7 +1574,7 @@ export const products: any[] = [
     image: "/images/zgcine-v99pro.jpg",
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
- // Computers & Editing Equipment
+  // Computers & Editing Equipment
   {
     name: "MacBook Pro 16-inch M3 Pro",
     price: "KSh 250,000",
@@ -1591,227 +1591,227 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
-  name: "Apple MacBook Pro 16-inch (M4 Pro, 2024)",
-  slug: "apple-macbook-pro-16-m4-pro-2024",
-  price: "KSh 320,000",
-  category: "Computers & Editing Equipment",
-  image: "/images/macbook-pro-16-m4-pro-2024.jpg",
-  description: "Professional Apple MacBook Pro powered by the M4 Pro chip, designed for video editing, photography, content creation, software development, and demanding workflows.",
-  specs: [
-    "Apple M4 Pro Chip",
-    "16-inch Liquid Retina XDR Display",
-    "24GB Unified Memory",
-    "512GB SSD Storage",
-    "Apple GPU with Hardware Ray Tracing",
-    "Thunderbolt 5 Ports",
-    "MagSafe 3 Charging",
-    "Wi-Fi 6E",
-    "Backlit Magic Keyboard (QWERTY English)",
-    "Space Black Finish",
-    "macOS"
-  ]
-},
+    name: "Apple MacBook Pro 16-inch (M4 Pro, 2024)",
+    slug: "apple-macbook-pro-16-m4-pro-2024",
+    price: "KSh 320,000",
+    category: "Computers & Editing Equipment",
+    image: "/images/macbook-pro-16-m4-pro-2024.jpg",
+    description: "Professional Apple MacBook Pro powered by the M4 Pro chip, designed for video editing, photography, content creation, software development, and demanding workflows.",
+    specs: [
+      "Apple M4 Pro Chip",
+      "16-inch Liquid Retina XDR Display",
+      "24GB Unified Memory",
+      "512GB SSD Storage",
+      "Apple GPU with Hardware Ray Tracing",
+      "Thunderbolt 5 Ports",
+      "MagSafe 3 Charging",
+      "Wi-Fi 6E",
+      "Backlit Magic Keyboard (QWERTY English)",
+      "Space Black Finish",
+      "macOS"
+    ]
+  },
   // Gaming Laptops
   {
-  name: "ASUS ROG Strix G16 Gaming Laptop",
-  price: "KSh 185,000",
-  category: "Gaming Laptops",
-  image: "/images/asus-rog-g16.jpg",
-},
+    name: "ASUS ROG Strix G16 Gaming Laptop",
+    price: "KSh 185,000",
+    category: "Gaming Laptops",
+    image: "/images/asus-rog-g16.jpg",
+  },
 
-{
-  name: "MSI Katana 15 Gaming Laptop",
-  price: "KSh 165,000",
-  category: "Gaming Laptops",
-  image: "/images/msi-katana-15.jpg",
-},
+  {
+    name: "MSI Katana 15 Gaming Laptop",
+    price: "KSh 165,000",
+    category: "Gaming Laptops",
+    image: "/images/msi-katana-15.jpg",
+  },
 
-{
-  name: "Lenovo Legion 5 Gaming Laptop",
-  price: "KSh 175,000",
-  category: "Gaming Laptops",
-  image: "/images/lenovo-legion-5.jpg",
-},
+  {
+    name: "Lenovo Legion 5 Gaming Laptop",
+    price: "KSh 175,000",
+    category: "Gaming Laptops",
+    image: "/images/lenovo-legion-5.jpg",
+  },
 
-{
-  name: "Acer Nitro 5 Gaming Laptop",
-  price: "KSh 135,000",
-  category: "Gaming Laptops",
-  image: "/images/acer-nitro-5.jpg",
-},
-{
-  name: "ASUS ROG Strix G16 (2025) Gaming Laptop",
-  slug: "asus-rog-strix-g16-2025",
-  price: "KSh 220,000",
-  category: "Gaming Laptops",
-  image: "/images/asus-rog-strix-g16-2025.jpg",
-  description: "High-performance gaming laptop powered by Intel Core i7 processor and NVIDIA GeForce RTX 5050 graphics for gaming, content creation, and professional workloads.",
-  specs: [
-    "16-inch FHD+ 16:10 Display",
-    "165Hz Refresh Rate",
-    "3ms Response Time",
-    "Intel Core i7-14650HX Processor",
-    "NVIDIA GeForce RTX 5050 Laptop GPU",
-    "16GB DDR5 RAM",
-    "1TB NVMe SSD",
-    "Wi-Fi 6E",
-    "RGB Backlit Keyboard",
-    "Windows 11 Home"
-  ]
-},
-{
-  name: "Acer Predator Helios 300 PH317-53 Gaming Laptop - Intel Core i7-9750H, 16GB RAM, 512GB SSD",
-  price: "KSh 80,000",
-  category: "Gaming Laptops",
-  image: "/images/acer-predator-helios-300-ph317-53.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera"
-},
- // Gaming Consoles
- {
-  name: "Sony PlayStation 5 Slim Standard Edition (Disc Console)",
-  slug: "sony-playstation-5-slim-disc-console",
-  price: "KSh 75,000",
-  category: "Gaming Consoles",
-  image: "/images/ps5-slim-disc.jpg",
-  description: "Next-generation gaming console delivering ultra-fast performance, stunning 4K graphics, immersive gameplay, and support for physical game discs.",
-  specs: [
-    "1TB SSD Storage",
-    "Ultra HD Blu-ray Disc Drive",
-    "4K Gaming Support",
-    "Ray Tracing Technology",
-    "120Hz Output Support",
-    "HDR Technology",
-    "Tempest 3D Audio",
-    "DualSense Wireless Controller",
-    "Wi-Fi 6 Connectivity",
-    "PlayStation Network Compatible"
-  ]
-},
+  {
+    name: "Acer Nitro 5 Gaming Laptop",
+    price: "KSh 135,000",
+    category: "Gaming Laptops",
+    image: "/images/acer-nitro-5.jpg",
+  },
+  {
+    name: "ASUS ROG Strix G16 (2025) Gaming Laptop",
+    slug: "asus-rog-strix-g16-2025",
+    price: "KSh 220,000",
+    category: "Gaming Laptops",
+    image: "/images/asus-rog-strix-g16-2025.jpg",
+    description: "High-performance gaming laptop powered by Intel Core i7 processor and NVIDIA GeForce RTX 5050 graphics for gaming, content creation, and professional workloads.",
+    specs: [
+      "16-inch FHD+ 16:10 Display",
+      "165Hz Refresh Rate",
+      "3ms Response Time",
+      "Intel Core i7-14650HX Processor",
+      "NVIDIA GeForce RTX 5050 Laptop GPU",
+      "16GB DDR5 RAM",
+      "1TB NVMe SSD",
+      "Wi-Fi 6E",
+      "RGB Backlit Keyboard",
+      "Windows 11 Home"
+    ]
+  },
+  {
+    name: "Acer Predator Helios 300 PH317-53 Gaming Laptop - Intel Core i7-9750H, 16GB RAM, 512GB SSD",
+    price: "KSh 80,000",
+    category: "Gaming Laptops",
+    image: "/images/acer-predator-helios-300-ph317-53.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera"
+  },
+  // Gaming Consoles
+  {
+    name: "Sony PlayStation 5 Slim Standard Edition (Disc Console)",
+    slug: "sony-playstation-5-slim-disc-console",
+    price: "KSh 75,000",
+    category: "Gaming Consoles",
+    image: "/images/ps5-slim-disc.jpg",
+    description: "Next-generation gaming console delivering ultra-fast performance, stunning 4K graphics, immersive gameplay, and support for physical game discs.",
+    specs: [
+      "1TB SSD Storage",
+      "Ultra HD Blu-ray Disc Drive",
+      "4K Gaming Support",
+      "Ray Tracing Technology",
+      "120Hz Output Support",
+      "HDR Technology",
+      "Tempest 3D Audio",
+      "DualSense Wireless Controller",
+      "Wi-Fi 6 Connectivity",
+      "PlayStation Network Compatible"
+    ]
+  },
 
-{
-  name: "Sony PlayStation 5 Pro Console",
-  price: "KSh 120,000",
-  category: "Gaming Consoles",
-  image: "/images/ps5-pro.jpg",
-},
+  {
+    name: "Sony PlayStation 5 Pro Console",
+    price: "KSh 120,000",
+    category: "Gaming Consoles",
+    image: "/images/ps5-pro.jpg",
+  },
 
-{
-  name: "Microsoft Xbox Series X",
-  price: "KSh 85,000",
-  category: "Gaming Consoles",
-  image: "/images/xbox-series-x.jpg",
-},
+  {
+    name: "Microsoft Xbox Series X",
+    price: "KSh 85,000",
+    category: "Gaming Consoles",
+    image: "/images/xbox-series-x.jpg",
+  },
 
-{
-  name: "Microsoft Xbox Series S",
-  price: "KSh 45,000",
-  category: "Gaming Consoles",
-  image: "/images/xbox-series-s.jpg",
-},
+  {
+    name: "Microsoft Xbox Series S",
+    price: "KSh 45,000",
+    category: "Gaming Consoles",
+    image: "/images/xbox-series-s.jpg",
+  },
 
-{
-  name: "Nintendo Switch OLED",
-  price: "KSh 45,000",
-  category: "Gaming Consoles",
-  image: "/images/nintendo-switch-oled.jpg",
-},
+  {
+    name: "Nintendo Switch OLED",
+    price: "KSh 45,000",
+    category: "Gaming Consoles",
+    image: "/images/nintendo-switch-oled.jpg",
+  },
 
-{
-  name: "Nintendo Switch Lite",
-  price: "KSh 28,000",
-  category: "Gaming Consoles",
-  image: "/images/nintendo-switch-lite.jpg",
-},
-{
-  name: "MSI Thin 15 Gaming Laptop",
-  slug: "msi-thin-15-rtx-4050",
-  price: "KSh 135,000",
-  category: "Gaming Laptops",
-  image: "/images/msi-thin-15-rtx4050.jpg",
-  description: "Powerful gaming laptop featuring Intel Core 5 processor, NVIDIA RTX 4050 graphics, 16GB DDR5 RAM and 1TB NVMe SSD.",
-  specs: [
-    "15.6-inch Full HD 144Hz Display",
-    "Intel Core 5-210H Processor",
-    "NVIDIA GeForce RTX 4050",
-    "16GB DDR5 RAM",
-    "1TB NVMe SSD",
-    "Windows 11 Home",
-    "Wi-Fi 6",
-    "Backlit Gaming Keyboard"
-  ]
-},
-// Adapaters
-{
-  name: "Metabones Speed Booster XL 0.64x Adapter for Canon EF to Micro Four Thirds",
-  oldPrice: "KSh 75,000",
-  price: "KSh 60,000",
-  category: "Adapters",
-  image: "/images/metabones-speed-booster-xl.jpg",
-},
+  {
+    name: "Nintendo Switch Lite",
+    price: "KSh 28,000",
+    category: "Gaming Consoles",
+    image: "/images/nintendo-switch-lite.jpg",
+  },
+  {
+    name: "MSI Thin 15 Gaming Laptop",
+    slug: "msi-thin-15-rtx-4050",
+    price: "KSh 135,000",
+    category: "Gaming Laptops",
+    image: "/images/msi-thin-15-rtx4050.jpg",
+    description: "Powerful gaming laptop featuring Intel Core 5 processor, NVIDIA RTX 4050 graphics, 16GB DDR5 RAM and 1TB NVMe SSD.",
+    specs: [
+      "15.6-inch Full HD 144Hz Display",
+      "Intel Core 5-210H Processor",
+      "NVIDIA GeForce RTX 4050",
+      "16GB DDR5 RAM",
+      "1TB NVMe SSD",
+      "Windows 11 Home",
+      "Wi-Fi 6",
+      "Backlit Gaming Keyboard"
+    ]
+  },
+  // Adapaters
+  {
+    name: "Metabones Speed Booster XL 0.64x Adapter for Canon EF to Micro Four Thirds",
+    oldPrice: "KSh 75,000",
+    price: "KSh 60,000",
+    category: "Adapters",
+    image: "/images/metabones-speed-booster-xl.jpg",
+  },
 
-// Gimbals
-{
-  name: "DJI RS 4 3-Axis Gimbal Stabilizer",
-  price: "KSh 65,000",
-  category: "Gimbals",
-  image: "/images/dji-rs4.jpg",
-  description:
-    "Professional 3-axis camera stabilizer with auto-lock axes, Bluetooth shutter control, and enhanced stabilization for content creators and filmmakers.",
-},
-{
-  name: "DJI RS 2 3-Axis Gimbal Stabilizer",
-  oldPrice: "KSh 44,500",
-  price: "KSh 44,000",
-  category: "Gimbals",
-  image: "/images/dji-rs2.jpg",
-  description:
-    "Professional 3-axis camera gimbal featuring a carbon fiber design, payload capacity up to 4.5kg, 1.4-inch full-color touchscreen, Titan Stabilization Algorithm, built-in battery grip with up to 12 hours runtime, and support for DSLR, mirrorless, and cinema cameras.",
-},
-{
-  name: "DJI RS 4 Pro Gimbal Stabilizer Combo",
-  oldPrice: "KSh 134,000",
-  price: "KSh 132,000",
-  category: "Gimbals",
-  image: "/images/dji-rs4-pro.jpg",
-  description:
-    "Professional 3-axis gimbal stabilizer designed for cinema cameras and heavy mirrorless setups. Features automated axis locks, 2nd-generation native vertical shooting, LiDAR autofocus support, Bluetooth shutter control, RSA communication ports, Teflon-coated balancing system, and up to 13 hours of battery life for advanced filmmaking and content creation.",
-},
-// Video Camera Accessories
-{
-  name: "Panasonic Detachable Handle Unit VW-HU1",
-  price: "KSh 50,000",
-  category: "Video Camera Accessories",
-  image: "/images/panasonic-vw-hu1.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera"
-},
-// Phones & Tablets
-{
-  name: "Apple iPhone 14 Pro 128GB Deep Purple (Unlocked)",
-  price: "KSh 62,000",
-  category: "Phones & Tablets",
-  image: "/images/apple-iphone-14-pro-128gb-deep-purple.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera"
-},
-{
-  name: "Apple iPhone 13 Pro 128GB (Unlocked)",
-  price: "KSh 54,000",
-  category: "Phones & Tablets",
-  image: "/images/apple-iphone-13-pro-128gb.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera"
-},
-{
-  name: "Apple iPhone 12 Pro Max 128GB (Unlocked)",
-  price: "KSh 44,000",
-  category: "Phones & Tablets",
-  image: "/images/apple-iphone-12-pro-max-128gb.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera"
-},
-{
-  name: "Apple iPhone 16 128GB Black (Unlocked)",
-  price: "KSh 80,000",
-  category: "Phones & Tablets",
-  image: "/images/apple-iphone-16-128gb-black.jpg",
-  link: "https://jiji.co.ke/shop/sampluscamera"
-}
+  // Gimbals
+  {
+    name: "DJI RS 4 3-Axis Gimbal Stabilizer",
+    price: "KSh 65,000",
+    category: "Gimbals",
+    image: "/images/dji-rs4.jpg",
+    description:
+      "Professional 3-axis camera stabilizer with auto-lock axes, Bluetooth shutter control, and enhanced stabilization for content creators and filmmakers.",
+  },
+  {
+    name: "DJI RS 2 3-Axis Gimbal Stabilizer",
+    oldPrice: "KSh 44,500",
+    price: "KSh 44,000",
+    category: "Gimbals",
+    image: "/images/dji-rs2.jpg",
+    description:
+      "Professional 3-axis camera gimbal featuring a carbon fiber design, payload capacity up to 4.5kg, 1.4-inch full-color touchscreen, Titan Stabilization Algorithm, built-in battery grip with up to 12 hours runtime, and support for DSLR, mirrorless, and cinema cameras.",
+  },
+  {
+    name: "DJI RS 4 Pro Gimbal Stabilizer Combo",
+    oldPrice: "KSh 134,000",
+    price: "KSh 132,000",
+    category: "Gimbals",
+    image: "/images/dji-rs4-pro.jpg",
+    description:
+      "Professional 3-axis gimbal stabilizer designed for cinema cameras and heavy mirrorless setups. Features automated axis locks, 2nd-generation native vertical shooting, LiDAR autofocus support, Bluetooth shutter control, RSA communication ports, Teflon-coated balancing system, and up to 13 hours of battery life for advanced filmmaking and content creation.",
+  },
+  // Video Camera Accessories
+  {
+    name: "Panasonic Detachable Handle Unit VW-HU1",
+    price: "KSh 50,000",
+    category: "Video Camera Accessories",
+    image: "/images/panasonic-vw-hu1.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera"
+  },
+  // Phones & Tablets
+  {
+    name: "Apple iPhone 14 Pro 128GB Deep Purple (Unlocked)",
+    price: "KSh 62,000",
+    category: "Phones & Tablets",
+    image: "/images/apple-iphone-14-pro-128gb-deep-purple.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera"
+  },
+  {
+    name: "Apple iPhone 13 Pro 128GB (Unlocked)",
+    price: "KSh 54,000",
+    category: "Phones & Tablets",
+    image: "/images/apple-iphone-13-pro-128gb.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera"
+  },
+  {
+    name: "Apple iPhone 12 Pro Max 128GB (Unlocked)",
+    price: "KSh 44,000",
+    category: "Phones & Tablets",
+    image: "/images/apple-iphone-12-pro-max-128gb.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera"
+  },
+  {
+    name: "Apple iPhone 16 128GB Black (Unlocked)",
+    price: "KSh 80,000",
+    category: "Phones & Tablets",
+    image: "/images/apple-iphone-16-128gb-black.jpg",
+    link: "https://jiji.co.ke/shop/sampluscamera"
+  }
 ];
 
