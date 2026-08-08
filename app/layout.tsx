@@ -13,35 +13,60 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.sampluscamera.com"),
+
   title: "Hot Deals at Samplus Camera",
+
   description:
     "Limited-time camera offers available at Samplus Camera Nairobi. Shop cameras, camcorders, lenses and accessories.",
 
+  verification: {
+    other: {
+      "facebook-domain-verification":
+        "xpvl94ohni22vct67fv7pb76xt8dzr",
+    },
+  },
+
   openGraph: {
     title: "Hot Deals at Samplus Camera",
+
     description:
       "Limited-time camera offers available at Samplus Camera Nairobi.",
-    url: "https://shop.sampluscamera.com",
+
+    url: "https://www.sampluscamera.com",
+
     siteName: "Samplus Camera",
+
     images: [
       {
-        url: "https://shop.sampluscamera.com/images/offer-preview.jpg",
+        url: "https://www.sampluscamera.com/images/offer-preview.jpg",
         width: 1200,
         height: 630,
         alt: "Samplus Camera Hot Deals",
       },
     ],
+
+    locale: "en_KE",
     type: "website",
   },
 
   twitter: {
     card: "summary_large_image",
+
     title: "Hot Deals at Samplus Camera",
+
     description:
       "Limited-time camera offers available at Samplus Camera Nairobi.",
+
     images: [
-      "https://shop.sampluscamera.com/images/offer-preview.jpg",
+      "https://www.sampluscamera.com/images/offer-preview.jpg",
     ],
+  },
+
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 };
 
@@ -53,21 +78,14 @@ export const viewport: Viewport = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
-      <head>
-        <meta
-          name="facebook-domain-verification"
-          content="xpvl94ohni22vct67fv7pb76xt8dzr"
-        />
-      </head>
-
       <body>{children}</body>
     </html>
   );
