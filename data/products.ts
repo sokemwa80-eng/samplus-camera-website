@@ -760,6 +760,12 @@ export const products: any[] = [
   category: "Camera Lenses",
   image: "/images/dzofilm-pictor-14-30mm-t2-8.jpg",
 },
+{
+  name: "Sigma 18-35mm T2 High-Speed Zoom Lens (Canon EF)",
+  price: "KSh 200,000",
+  category: "Camera Lenses",
+  image: "/images/sigma-18-35mm-t2-high-speed-zoom-lens-canon-ef.jpg",
+},
 
   // Audio Equipment
   {
