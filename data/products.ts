@@ -754,6 +754,12 @@ export const products: any[] = [
     description:
       "Professional APS-C standard zoom lens featuring a fast constant f/1.8 aperture, Hyper Sonic Motor autofocus, and exceptional image quality. Ideal for portraits, weddings, events, and video production.",
   },
+  {
+  name: "DZOFilm Pictor 14-30mm T2.8 Super35 Parfocal Zoom Lens (PL and EF Mounts, Black)",
+  price: "KSh 200,000",
+  category: "Lenses",
+  image: "/images/dzofilm-pictor-14-30mm-t2-8.jpg",
+},
 
   // Audio Equipment
   {
