@@ -748,7 +748,7 @@ export const products: any[] = [
   {
     name: "Sigma 18-35mm F1.8 DC HSM Art Lens for Canon EF",
     price: "KSh 69,000",
-    category: "Lenses",
+    category: "Camera Lenses",
     image: "/images/sigma-18-35mm-f1-8-dc-hsm-art-canon.jpg",
     link: "https://jiji.co.ke/shop/sampluscamera",
     description:
@@ -757,7 +757,7 @@ export const products: any[] = [
   {
   name: "DZOFilm Pictor 14-30mm T2.8 Super35 Parfocal Zoom Lens (PL and EF Mounts, Black)",
   price: "KSh 200,000",
-  category: "Lenses",
+  category: "Camera Lenses",
   image: "/images/dzofilm-pictor-14-30mm-t2-8.jpg",
 },
 
