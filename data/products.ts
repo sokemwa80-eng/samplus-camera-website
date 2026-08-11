@@ -348,7 +348,7 @@ export const products: any[] = [
   {
   name: "Sony PXW-X70 Professional Handheld 4K Camcorder",
   price: "KSh 190,000",
-  category: "Video Cameras",
+  category: "Professional Video Camcorders",
   image: "/images/sony-pxw-x70ii.jpg",
 },
   {
