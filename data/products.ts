@@ -346,6 +346,12 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
+  name: "Sony PXW-X70 Professional Handheld 4K Camcorder",
+  price: "KSh 190,000",
+  category: "Video Cameras",
+  image: "/images/sony-pxw-x70.jpg",
+},
+  {
     name: "Panasonic AG-DVX200 4K Handheld Camcorder",
     price: "KSh 250,000",
     category: "Professional Video Camcorders",
