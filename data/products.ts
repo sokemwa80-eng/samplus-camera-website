@@ -237,6 +237,12 @@ export const products: any[] = [
     link: "https://jiji.co.ke/shop/sampluscamera",
   },
   {
+  name: "Nikon Z5 II Mirrorless Camera with 24-70mm f/4 S Lens",
+  price: "KSh 180,000",
+  category: "DSLR and Mirrorless Cameras",
+  image: "/images/nikon-z5-ii-24-70mm-f4-s.jpg",
+},
+  {
     name: "Nikon Z30 16-50mm Kit Black",
     price: "KSh 80,000",
     category: "DSLR and Mirrorless Cameras",
@@ -270,6 +276,12 @@ export const products: any[] = [
     category: "DSLR and Mirrorless Cameras",
     image: "/images/sony-a6400.jpg",
   },
+  {
+  name: "Nikon Z7 Mirrorless Digital Camera with 24-70mm f/4 S Kit",
+  price: "KSh 160,000",
+  category: "DSLR and Mirrorless Cameras",
+  image: "/images/nikon-z7-24-70mm-f4-s-kit.jpg",
+},
   {
     name: "Sony Alpha A6400 APS-C Mirrorless Camera with 16-50mm Lens Kit",
     price: "KSh 115,000",
