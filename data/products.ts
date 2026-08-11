@@ -532,6 +532,12 @@ export const products: any[] = [
       "Dual Native ISO"
     ]
   },
+  {
+  name: "Blackmagic Design PYXIS 6K Camera",
+  price: "KSh 450,000",
+  category: "Professional Video Camcorders",
+  image: "/images/blackmagic-design-pyxis-6k.jpg",
+},
   //Wireless Video Transmission Systems
   {
     name: "Hollyland Pyro H Wireless Video Transmission System - HDMI",
